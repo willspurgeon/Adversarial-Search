@@ -9,8 +9,8 @@ package referee;
  */
 public class Board {
 	
-	int width;
-	int height;
+	public int width;
+	public int height;
 	int board[][];
 	int numOfDiscsInColumn[];
 	int emptyCell=9;
