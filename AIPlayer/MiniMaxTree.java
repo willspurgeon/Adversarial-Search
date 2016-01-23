@@ -38,10 +38,28 @@ public class MiniMaxTree {
 		
 		for(int i = 0; i < gameBoard.width; i++){
 			for(int j = 0; j < gameBoard.height; j++){
-				if(gameBoard.board[j][i] != 9) break;
+				if(gameBoard.board[j][i] != 9) continue;
 				
 				if(i != gameBoard.width){
 					//Check right
+					int rowPlayerValue = 10;
+					int inARow = 0;
+					for(int y = i+1; y < gameBoard.width; y++){
+						if(y==i+1){
+							rowPlayerValue = gameBoard.board[j][y];
+						}else{
+							if(gameBoard.board[j][y] == rowPlayerValue){
+								inARow++;
+							}else{
+								if(playerNum == rowPlayerValue){
+									myValue = myValue + TestPlayer.weights.get(inARow);
+								}else{
+									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+								}
+								break;
+							}
+						}
+					}
 				}
 				if(i != 0){
 					//Check left.
@@ -67,37 +85,123 @@ public class MiniMaxTree {
 				
 				if(j != 0){
 					//Check bottom.
+					int rowPlayerValue = 10;
+					int inARow = 0;
+					for(int y = j-1; y<=0; y--){
+						if(y==j-1){
+							rowPlayerValue = gameBoard.board[y][i];
+						}else{
+							if(gameBoard.board[y][i] == rowPlayerValue){
+								inARow++;
+							}else{
+								if(playerNum == rowPlayerValue){
+									myValue = myValue + TestPlayer.weights.get(inARow);
+								}else{
+									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+								}
+								break;
+							}
+						}
+					}
 				}
+				
 				
 				if(j != gameBoard.height && i != gameBoard.width){
 					//Check Top right.
+					int rowPlayerValue = 10;
+					int inARow = 0;
+					int xValue = i;
+					for(int y = j+1; y < gameBoard.height && xValue < gameBoard.width; y++){
+						xValue++;
+						if(y==j+1){
+							rowPlayerValue = gameBoard.board[y][xValue];
+						}else{
+							if(gameBoard.board[y][xValue] == rowPlayerValue){
+								inARow++;
+							}else{
+								if(playerNum == rowPlayerValue){
+									myValue = myValue + TestPlayer.weights.get(inARow);
+								}else{
+									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+								}
+								break;
+							}
+						}
+					}
 				}
 				if(i != gameBoard.width && j != 0){
 					//Check Bottom right
+					int rowPlayerValue = 10;
+					int inARow = 0;
+					int xValue = i;
+					for(int y = j-1; y > gameBoard.height && xValue < gameBoard.width; y--){
+						xValue++;
+						if(y==j-1){
+							rowPlayerValue = gameBoard.board[y][xValue];
+						}else{
+							if(gameBoard.board[y][xValue] == rowPlayerValue){
+								inARow++;
+							}else{
+								if(playerNum == rowPlayerValue){
+									myValue = myValue + TestPlayer.weights.get(inARow);
+								}else{
+									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+								}
+								break;
+							}
+						}
+					}
 				}
 				if(i != 0 && j != gameBoard.height){
 					//Check top left.
+					int rowPlayerValue = 10;
+					int inARow = 0;
+					int xValue = i;
+					for(int y = j+1; y < gameBoard.height && xValue > 0; y++){
+						xValue--;
+						if(y==j+1){
+							rowPlayerValue = gameBoard.board[y][xValue];
+						}else{
+							if(gameBoard.board[y][xValue] == rowPlayerValue){
+								inARow++;
+							}else{
+								if(playerNum == rowPlayerValue){
+									myValue = myValue + TestPlayer.weights.get(inARow);
+								}else{
+									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+								}
+								break;
+							}
+						}
+					}
 				}
 				
 				if(j != 0 && i != 0){
 					//Check bottom left.
-				}
-				
-				
+					int rowPlayerValue = 10;
+					int inARow = 0;
+					int xValue = i;
+					for(int y = j-1; y > 0 && xValue > 0; y--){
+						xValue--;
+						if(y==j-1){
+							rowPlayerValue = gameBoard.board[y][xValue];
+						}else{
+							if(gameBoard.board[y][xValue] == rowPlayerValue){
+								inARow++;
+							}else{
+								if(playerNum == rowPlayerValue){
+									myValue = myValue + TestPlayer.weights.get(inARow);
+								}else{
+									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+								}
+								break;
+							}
+						}
+					}
+				}				
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		return 0;
+		return myValue - opponentValue;
 	}
 
 	
