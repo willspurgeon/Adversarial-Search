@@ -21,6 +21,10 @@ public class Board {
 	int NOCONNECTION=-1;
 	int TIE=0;
 	
+	public static Board getBoardCopy(Board in){
+		return in;
+	}
+	
 	 public Board(int height, int width, int N){
 		this.width=width;
 		this.height=height;

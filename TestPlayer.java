@@ -18,7 +18,7 @@ public class TestPlayer {
 	BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 	boolean first_move=false;
 	int firstPlayer = 0;
-	int playerNum = 0;
+	public int playerNum = 0;
 	int opponentNum = 0;
 	int timeLimit = 0;
 	
@@ -51,8 +51,8 @@ public class TestPlayer {
 			//Perform MiniMax and pruning using heuristic. 
 			//Return a move within the time limit.
 			PlayerMove bestFoundMove;
+			gameTree.buildTreeToDepth(10);
 			for(int i = 1; System.currentTimeMillis() > (startingTime + (timeLimit*1000))-2; i++){
-				//TODO: Build game tree
 				gameTree.performMiniMaxSearch(i, Integer.MIN_VALUE, Integer.MAX_VALUE);	
 			}
 			
@@ -73,7 +73,7 @@ public class TestPlayer {
 			timeLimit = Integer.parseInt(ls.get(4));
 			
 			Board gameBoard = new Board(boardHeight, boardWidth, nNum);
-			gameTree = new MiniMaxTree(gameBoard, true);
+			gameTree = new MiniMaxTree(gameBoard, true, playerNum);
 			if(!first_move){
 				//make the first move
 				System.out.println("4 1");

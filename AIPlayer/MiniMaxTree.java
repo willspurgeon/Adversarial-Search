@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class MiniMaxTree {
 	Board gameBoard;
 	boolean thisIsMax;
+	int playerNum;
 
 	
 	public PlayerMove moveForThisTree = null;
@@ -12,10 +13,11 @@ public class MiniMaxTree {
 	ArrayList<MiniMaxTree> children;
 	
 	
-	public MiniMaxTree(Board board, boolean rootIsMax){
+	public MiniMaxTree(Board board, boolean rootIsMax, int playerNum){
 
 		this.gameBoard = board;
 		this.thisIsMax = rootIsMax;
+		this.playerNum = playerNum;
 	}
 
 	/**
@@ -61,40 +63,31 @@ public class MiniMaxTree {
 		if (i < 1) {
 			return;
 		}
-		int playerturn = -1;
 
-		ArrayList<Board> Boardarr = new ArrayList<Board>();
+		ArrayList<Board> boardarr = new ArrayList<Board>();
 
 		for (int j = 0; j < gameBoard.width; j++) {
-			playerturn++;
 			// Build all possible boards for drop.
 
-			Board Temp = new Board(gameBoard.height, gameBoard.width, gameBoard.getN());
+			Board temp = Board.getBoardCopy(gameBoard);
 
-			Temp.dropADiscFromTop(j, playerturn % 2);
-
-			Boardarr.add(Temp);
+			temp.dropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum==1) ? 2: 1));
+			boardarr.add(temp);
 		}
 
 		for (int j = 0; j < gameBoard.width; j++) {
 			// Build all possible boards for pop.
 
-			playerturn++;
-
-			Board Temp = new Board(gameBoard.height, gameBoard.width, gameBoard.getN());
-			if (Temp.canRemoveADiscFromBottom(j, playerturn % 2)) {
-				Temp.removeADiscFromBottom(j);
-				Boardarr.add(Temp);
+			Board temp = new Board(gameBoard.height, gameBoard.width, gameBoard.getN());
+			if (temp.canRemoveADiscFromBottom(j,  thisIsMax ? playerNum : ((playerNum==1) ? 2: 1))) {
+				temp.removeADiscFromBottom(j);
+				boardarr.add(temp);
 			}
-
 		}
 
-		for (int j = 0; j < gameBoard.width; j++) {
-			buildTreeToDepth(i - 1);
+		for (MiniMaxTree child: children) {
+			child.buildTreeToDepth(i - 1);
 		}
-
-
-
 	}
 
 }
