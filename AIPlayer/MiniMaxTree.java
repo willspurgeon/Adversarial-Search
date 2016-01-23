@@ -55,13 +55,25 @@ public class MiniMaxTree {
 		if(i < 1){
 			return;
 		}
-		
+		int playerturn=-1;
 		for(int j = 0; j < gameBoard.width; j++){
+			playerturn++;
 			//Build all possible boards for drop.
+			Board Temp = new Board( gameBoard.height, gameBoard.width, gameBoard.getN());
+			Temp.dropADiscFromTop(j, playerturn%2);
+			buildTreeToDepth(i-1);
+			i--;
 		}
 		
 		for(int j = 0; j < gameBoard.width; j++){
 			//Build all possible boards for pop.
+			playerturn++;
+			Board Temp = new Board( gameBoard.height, gameBoard.width, gameBoard.getN());
+			if(Temp.canRemoveADiscFromBottom(j, playerturn%2));
+			
+			Temp.dropADiscFromTop(j, playerturn%2);
+			buildTreeToDepth(i-1);
+			i--;
 		}
 		
 		
