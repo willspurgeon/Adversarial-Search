@@ -69,9 +69,10 @@ public class MiniMaxTree {
 			//Build all possible boards for pop.
 			playerturn++;
 			Board Temp = new Board( gameBoard.height, gameBoard.width, gameBoard.getN());
-			if(Temp.canRemoveADiscFromBottom(j, playerturn%2));
-			
-			Temp.dropADiscFromTop(j, playerturn%2);
+			if(Temp.canRemoveADiscFromBottom(j, playerturn%2))
+			{	
+				Temp.removeADiscFromBottom(j);
+			}
 			buildTreeToDepth(i-1);
 			i--;
 		}
