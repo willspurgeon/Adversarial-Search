@@ -64,15 +64,16 @@ public class MiniMaxTree {
 			return;
 		}
 
-		ArrayList<Board> boardarr = new ArrayList<Board>();
+		children = new ArrayList<MiniMaxTree>();
 
 		for (int j = 0; j < gameBoard.width; j++) {
 			// Build all possible boards for drop.
 
 			Board temp = Board.getBoardCopy(gameBoard);
-
-			temp.dropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum==1) ? 2: 1));
-			boardarr.add(temp);
+			if(temp.canDropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum==1) ? 2: 1))){
+				temp.dropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum==1) ? 2: 1));
+				children.add(new MiniMaxTree(temp, !thisIsMax, playerNum));
+			}
 		}
 
 		for (int j = 0; j < gameBoard.width; j++) {
@@ -81,7 +82,7 @@ public class MiniMaxTree {
 			Board temp = new Board(gameBoard.height, gameBoard.width, gameBoard.getN());
 			if (temp.canRemoveADiscFromBottom(j,  thisIsMax ? playerNum : ((playerNum==1) ? 2: 1))) {
 				temp.removeADiscFromBottom(j);
-				boardarr.add(temp);
+				children.add(new MiniMaxTree(temp, !thisIsMax, playerNum));
 			}
 		}
 
