@@ -6,6 +6,6 @@ public class PlayerMove {
 	public int column;
 	
 	enum TypeOfMove{
-		 Drop, PopOut;
+		 PopOut, Drop;
 	}
 }

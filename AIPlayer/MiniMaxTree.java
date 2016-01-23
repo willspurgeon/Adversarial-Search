@@ -26,6 +26,10 @@ public class MiniMaxTree {
 	}
 	
 	public int performMiniMaxSearch(int depth, int alpha, int beta){
+		if(depth == 1){
+			return getUtilityOfRootBoard();
+		}
+		
 		if(thisIsMax){
 			for(MiniMaxTree child: children){
 				int thisChildsNum = child.performMiniMaxSearch(depth - 1,alpha, beta);

@@ -52,10 +52,11 @@ public class TestPlayer {
 			//Return a move within the time limit.
 			PlayerMove bestFoundMove;
 			for(int i = 1; System.currentTimeMillis() > (startingTime + (timeLimit*1000))-2; i++){
-				//bestFoundMove = gameTree.performMiniMaxSearch(i, Integer.MIN_VALUE, Integer.MAX_VALUE);	
+				//TODO: Build game tree
+				gameTree.performMiniMaxSearch(i, Integer.MIN_VALUE, Integer.MAX_VALUE);	
 			}
 			
-			//System.out.println(bestFoundMove.column + " " + bestFoundMove.moveType);
+			System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType);
 			
 		}
 		else if(ls.size()==1){
