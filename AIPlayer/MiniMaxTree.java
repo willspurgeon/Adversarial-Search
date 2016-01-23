@@ -2,6 +2,8 @@ package AIPlayer;
 
 import java.util.ArrayList;
 
+import AIPlayer.PlayerMove.TypeOfMove;
+
 public class MiniMaxTree {
 	Board gameBoard;
 	boolean thisIsMax;
@@ -30,17 +32,17 @@ public class MiniMaxTree {
 	}
 
 	
-	public int performMiniMaxSearch(int depth, int alpha, int beta){
+	public int performMiniMaxSearch(int depth, int alpha, int beta, boolean calledFromRoot){
 		if(depth == 1){
 			return getUtilityOfRootBoard();
 		}
 		
 		if(thisIsMax){
 			for(MiniMaxTree child: children){
-				int thisChildsNum = child.performMiniMaxSearch(depth - 1,alpha, beta);
+				int thisChildsNum = child.performMiniMaxSearch(depth - 1,alpha, beta, false);
 				if(thisChildsNum > alpha){
 					alpha = thisChildsNum;
-					moveForThisTree = child.moveForThisTree;
+					if(calledFromRoot)moveForThisTree = child.moveForThisTree;
 				}
 				if(alpha >= beta)break;
 			}
@@ -48,10 +50,10 @@ public class MiniMaxTree {
 		}else{
 			
 			for(MiniMaxTree child: children){
-				int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta);
+				int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false);
 				if(thisChildsNum < beta){
 					beta = thisChildsNum;
-					moveForThisTree = child.moveForThisTree;
+					if(calledFromRoot)moveForThisTree = child.moveForThisTree;
 				}
 				if(alpha >= beta)break;
 			}
@@ -72,7 +74,9 @@ public class MiniMaxTree {
 			Board temp = Board.getBoardCopy(gameBoard);
 			if(temp.canDropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum==1) ? 2: 1))){
 				temp.dropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum==1) ? 2: 1));
-				children.add(new MiniMaxTree(temp, !thisIsMax, playerNum));
+				MiniMaxTree tempTree = new MiniMaxTree(temp, !thisIsMax, playerNum);
+				tempTree.moveForThisTree = new PlayerMove(j, TypeOfMove.Drop);
+				children.add(tempTree);
 			}
 		}
 
@@ -82,7 +86,9 @@ public class MiniMaxTree {
 			Board temp = new Board(gameBoard.height, gameBoard.width, gameBoard.getN());
 			if (temp.canRemoveADiscFromBottom(j,  thisIsMax ? playerNum : ((playerNum==1) ? 2: 1))) {
 				temp.removeADiscFromBottom(j);
-				children.add(new MiniMaxTree(temp, !thisIsMax, playerNum));
+				MiniMaxTree tempTree = new MiniMaxTree(temp, !thisIsMax, playerNum);
+				tempTree.moveForThisTree = new PlayerMove(j, TypeOfMove.PopOut);
+				children.add(tempTree);
 			}
 		}
 

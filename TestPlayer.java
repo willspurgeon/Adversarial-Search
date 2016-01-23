@@ -53,7 +53,7 @@ public class TestPlayer {
 			PlayerMove bestFoundMove;
 			gameTree.buildTreeToDepth(10);
 			for(int i = 1; System.currentTimeMillis() > (startingTime + (timeLimit*1000))-2; i++){
-				gameTree.performMiniMaxSearch(i, Integer.MIN_VALUE, Integer.MAX_VALUE);	
+				gameTree.performMiniMaxSearch(i, Integer.MIN_VALUE, Integer.MAX_VALUE, true);	
 			}
 			
 			System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType);
