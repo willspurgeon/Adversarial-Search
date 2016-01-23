@@ -1,7 +1,8 @@
+package AIPlayer;
 /**
  * This code is created for cs 4341 AI 2013a at WPI. All rights are reserved. 
  */
-package referee;
+
 
 /**
  * @author lzhu
@@ -20,7 +21,7 @@ public class Board {
 	int NOCONNECTION=-1;
 	int TIE=0;
 	
-	 Board(int height, int width, int N){
+	 public Board(int height, int width, int N){
 		this.width=width;
 		this.height=height;
 		board =new int[height][width];

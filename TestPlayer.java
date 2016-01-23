@@ -1,4 +1,4 @@
-package referee;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,12 +7,13 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
+import AIPlayer.Board;
 import AIPlayer.MiniMaxTree;
 
 
 public class TestPlayer {
 
-	String playerName="Bobert";
+	String playerName="TitsMcGee";
 	BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 	boolean first_move=false;
 	int firstPlayer = 0;
@@ -30,12 +31,12 @@ public class TestPlayer {
 		List<String> ls = Arrays.asList(s.split(" "));
 		//Add the last move to our game board.
 		if(ls.size()==2){
+			//System.err.println("THIS IS A DIAGNOSTIC MESSAGE");
 			//This code is called when the referee returns the opponents move. 
 			//Update game board and build tree/respond with new move.
 			
 			long startingTime = System.currentTimeMillis();
-			
-			//System.out.println(ls.get(0)+" "+ls.get(1));
+			System.out.println(ls.get(0)+" "+ls.get(1));
 			
 			if(Integer.parseInt(ls.get(1)) == 0){
 				//POP out
@@ -49,9 +50,9 @@ public class TestPlayer {
 			//Perform MiniMax and pruning using heuristic. 
 			//Return a move within the time limit.
 			
-			for(int i = 1; System.currentTimeMillis() > (startingTime + (timeLimit*1000))-2; i++){
-				gameTree.buildTreeToDepth(i);
-			}
+			//for(int i = 1; System.currentTimeMillis() > (startingTime + (timeLimit*1000))-2; i++){
+					//gameTree.buildTreeToDepth(i);
+			//}
 			
 			
 		}
@@ -70,6 +71,10 @@ public class TestPlayer {
 			
 			Board gameBoard = new Board(boardHeight, boardWidth, nNum);
 			gameTree = new MiniMaxTree(gameBoard, true);
+			if(!first_move){
+				//make the first move
+				System.out.println("4 1");
+			}
 			
 		}
 		else if(ls.size()==4){		//player1: aa player2: bb
@@ -82,12 +87,6 @@ public class TestPlayer {
 				opponentNum = 1;
 				first_move = (firstPlayer == 2) ? true : false;
 			}
-			
-			if(first_move){
-				//make the first move
-				System.out.println("4, 1");
-			}
-			
 		}
 		else
 			System.out.println("not what I want");

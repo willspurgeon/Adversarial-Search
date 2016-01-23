@@ -2,8 +2,6 @@ package AIPlayer;
 
 import java.util.ArrayList;
 
-import referee.Board;
-
 public class MiniMaxTree {
 	Board gameBoard;
 	boolean thisIsMax;
@@ -25,30 +23,28 @@ public class MiniMaxTree {
 		return 0;
 	}
 	
-	public int performMiniMaxSearch(){
-		//TODO: Generate children and perform search.
-		int result;
+	public int performMiniMaxSearch(int alpha, int beta){
 		if(thisIsMax){
-			result = Integer.MIN_VALUE;
-		
 			for(MiniMaxTree child: children){
-				int thisChildsNum = child.performMiniMaxSearch();
-				if(thisChildsNum > result){
-					result = thisChildsNum;
+				int thisChildsNum = child.performMiniMaxSearch(alpha, beta);
+				if(thisChildsNum > alpha){
+					alpha = thisChildsNum;
 				}
+				if(alpha >= beta)break;
 			}
+			return alpha;
 		}else{
-			result = Integer.MAX_VALUE;
 			
 			for(MiniMaxTree child: children){
-				int thisChildsNum = child.performMiniMaxSearch();
-				if(thisChildsNum < result){
-					result = thisChildsNum;
+				int thisChildsNum = child.performMiniMaxSearch(alpha, beta);
+				if(thisChildsNum < beta){
+					beta = thisChildsNum;
 				}
+				if(alpha >= beta)break;
 			}
+			return beta;
 		}
 		
-		return result;
 	}
 	
 	public void buildTreeToDepth(int i){
@@ -63,7 +59,6 @@ public class MiniMaxTree {
 		for(int j = 0; j < gameBoard.width; j++){
 			//Build all possible boards for pop.
 		}
-		
 		
 	}
 	

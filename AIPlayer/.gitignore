@@ -1,3 +1,5 @@
 /MiniMaxTree.class
 /PlayerMove.class
 /PlayerMove$TypeOfMove.class
+/Board.class
+/MiniMaxTree$MinOrMax.class
