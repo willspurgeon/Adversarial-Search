@@ -2,15 +2,18 @@ package AIPlayer;
 
 import java.util.ArrayList;
 
-import referee.Board;
-
 public class MiniMaxTree {
 	Board gameBoard;
 	boolean thisIsMax;
 
+	
+	public PlayerMove moveForThisTree = null;
+	
 	ArrayList<MiniMaxTree> children;
+	
+	
+	public MiniMaxTree(Board board, boolean rootIsMax){
 
-	MiniMaxTree(Board board, boolean rootIsMax) {
 		this.gameBoard = board;
 		this.thisIsMax = rootIsMax;
 	}
@@ -24,17 +27,16 @@ public class MiniMaxTree {
 		return 0;
 	}
 
-	public int performMiniMaxSearch() {
-		// TODO: Generate children and perform search.
-		int result;
-		if (thisIsMax) {
-			result = Integer.MIN_VALUE;
-
-			for (MiniMaxTree child : children) {
-				int thisChildsNum = child.performMiniMaxSearch();
-				if (thisChildsNum > result) {
-					result = thisChildsNum;
+	
+	public int performMiniMaxSearch(int depth, int alpha, int beta){
+		if(thisIsMax){
+			for(MiniMaxTree child: children){
+				int thisChildsNum = child.performMiniMaxSearch(depth - 1,alpha, beta);
+				if(thisChildsNum > alpha){
+					alpha = thisChildsNum;
+					moveForThisTree = child.moveForThisTree;
 				}
+				if(alpha >= beta)break;
 			}
 		} else {
 			result = Integer.MAX_VALUE;
@@ -43,11 +45,23 @@ public class MiniMaxTree {
 				int thisChildsNum = child.performMiniMaxSearch();
 				if (thisChildsNum < result) {
 					result = thisChildsNum;
+			return alpha;
+		}else{
+			
+			for(MiniMaxTree child: children){
+				int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta);
+				if(thisChildsNum < beta){
+					beta = thisChildsNum;
+					moveForThisTree = child.moveForThisTree;
+
 				}
+				if(alpha >= beta)break;
 			}
+			return beta;
 		}
 
 		return result;
+
 	}
 
 	public void buildTreeToDepth(int i) {
@@ -81,9 +95,12 @@ public class MiniMaxTree {
 			}
 
 		}
+
 		for (int j = 0; j < gameBoard.width; j++) {
 			buildTreeToDepth(i - 1);
 		}
+
+
 
 	}
 
