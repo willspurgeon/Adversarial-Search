@@ -11,7 +11,7 @@ public class MiniMaxTree {
 	ArrayList<MiniMaxTree> children;
 	
 	
-	MiniMaxTree(Board board, boolean rootIsMax){
+	public MiniMaxTree(Board board, boolean rootIsMax){
 		this.gameBoard = board;
 		this.thisIsMax = rootIsMax;
 	}

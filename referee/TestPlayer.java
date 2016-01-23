@@ -1,10 +1,13 @@
 package referee;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+
+import AIPlayer.MiniMaxTree;
 
 
 public class TestPlayer {
@@ -15,15 +18,23 @@ public class TestPlayer {
 	int firstPlayer = 0;
 	int playerNum = 0;
 	int opponentNum = 0;
+	int timeLimit = 0;
+	
+	MiniMaxTree gameTree;
 	
 	Board gameBoard;
 	
 	public void processInput() throws IOException{	
 		
     	String s=input.readLine();	
-		List<String> ls=Arrays.asList(s.split(" "));
+		List<String> ls = Arrays.asList(s.split(" "));
 		//Add the last move to our game board.
 		if(ls.size()==2){
+			//This code is called when the referee returns the opponents move. 
+			//Update game board and build tree/respond with new move.
+			
+			long startingTime = System.currentTimeMillis();
+			
 			//System.out.println(ls.get(0)+" "+ls.get(1));
 			
 			if(Integer.parseInt(ls.get(1)) == 0){
@@ -38,6 +49,10 @@ public class TestPlayer {
 			//Perform MiniMax and pruning using heuristic. 
 			//Return a move within the time limit.
 			
+			for(int i = 1; System.currentTimeMillis() > (startingTime + (timeLimit*1000))-2; i++){
+				gameTree.buildTreeToDepth(i);
+			}
+			
 			
 		}
 		else if(ls.size()==1){
@@ -45,20 +60,19 @@ public class TestPlayer {
 			System.exit(0);
 		}
 		else if(ls.size()==5){          //ls contains game info
-			System.out.println("0 1");  //first move
 			
 			//height col N playerThatGoesFirst timeLimit
 			int boardHeight = Integer.parseInt(ls.get(0));
 			int boardWidth = Integer.parseInt(ls.get(1));
 			int nNum = Integer.parseInt(ls.get(2));
 			firstPlayer = Integer.parseInt(ls.get(3));
-			int timeLimit = Integer.parseInt(ls.get(4));
+			timeLimit = Integer.parseInt(ls.get(4));
 			
-			gameBoard = new Board(boardHeight, boardWidth, nNum);
+			Board gameBoard = new Board(boardHeight, boardWidth, nNum);
+			gameTree = new MiniMaxTree(gameBoard, true);
 			
 		}
 		else if(ls.size()==4){		//player1: aa player2: bb
-			//TODO combine this information with game information to decide who is the first player
 			if(ls.get(1).equals(playerName)){
 				playerNum = 1;
 				opponentNum = 2;
@@ -68,6 +82,12 @@ public class TestPlayer {
 				opponentNum = 1;
 				first_move = (firstPlayer == 2) ? true : false;
 			}
+			
+			if(first_move){
+				//make the first move
+				System.out.println("4, 1");
+			}
+			
 		}
 		else
 			System.out.println("not what I want");

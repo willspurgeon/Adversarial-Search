@@ -47,6 +47,7 @@ public class Referee {
 	
 	
 	public Referee( String command_to_execute_player1, String command_to_execute_player2, int board_height,int board_width, int N, int announceNameTimeLimit, 	int moveTimeLimit) throws IOException{
+		/*
 		ProcessBuilder p1Builder = new ProcessBuilder(Arrays.asList(command_to_execute_player1.split(" ")));
         ProcessBuilder p2Builder = new ProcessBuilder(Arrays.asList(command_to_execute_player2.split(" ")));
         p1Builder.redirectError(ProcessBuilder.Redirect.INHERIT);
@@ -54,8 +55,9 @@ public class Referee {
         p1 = p1Builder.start();
         p2 = p2Builder.start();
 		
-		 //p1 = Runtime.getRuntime().exec(command_to_execute_player1);
-		 //p2 = Runtime.getRuntime().exec(command_to_execute_player2);
+        */
+		 p1 = Runtime.getRuntime().exec(command_to_execute_player1);
+		 p2 = Runtime.getRuntime().exec(command_to_execute_player2);
 		 input1 = new BufferedReader(new InputStreamReader(p1.getInputStream()));
 		 input2 = new BufferedReader(new InputStreamReader(p2.getInputStream()));
 		 output1 = new BufferedWriter(new OutputStreamWriter(p1.getOutputStream()));

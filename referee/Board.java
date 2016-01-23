@@ -44,6 +44,10 @@ public class Board {
 		 }
 	 }
 	 
+	 public int getN(){
+		 return N;
+	 }
+	 
 	 public boolean canRemoveADiscFromBottom(int col, int currentPlayer){
 		 if(col<0 || col>=this.width) {
 			 System.out.println("Illegal column!");
