@@ -3,6 +3,7 @@ package AIPlayer;
 import java.util.ArrayList;
 
 import AIPlayer.PlayerMove.TypeOfMove;
+import Player.TestPlayer;
 
 public class MiniMaxTree {
 	Board gameBoard;
@@ -28,6 +29,74 @@ public class MiniMaxTree {
 	 */
 	public int getUtilityOfRootBoard() {
 		// TODO: Implement heuristic here.
+		//i width
+		//j height
+		
+		int myValue = 0;
+		int opponentValue = 0;
+		
+		
+		for(int i = 0; i < gameBoard.width; i++){
+			for(int j = 0; j < gameBoard.height; j++){
+				if(gameBoard.board[j][i] != 9) break;
+				
+				if(i != gameBoard.width){
+					//Check right
+				}
+				if(i != 0){
+					//Check left.
+					int rowPlayerValue = 10;
+					int inARow = 0;
+					for(int y = i-1; y<=0; y--){
+						if(y==i-1){
+							rowPlayerValue = gameBoard.board[j][y];
+						}else{
+							if(gameBoard.board[j][y] == rowPlayerValue){
+								inARow++;
+							}else{
+								if(playerNum == rowPlayerValue){
+									myValue = myValue + TestPlayer.weights.get(inARow);
+								}else{
+									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+								}
+								break;
+							}
+						}
+					}
+				}
+				
+				if(j != 0){
+					//Check bottom.
+				}
+				
+				if(j != gameBoard.height && i != gameBoard.width){
+					//Check Top right.
+				}
+				if(i != gameBoard.width && j != 0){
+					//Check Bottom right
+				}
+				if(i != 0 && j != gameBoard.height){
+					//Check top left.
+				}
+				
+				if(j != 0 && i != 0){
+					//Check bottom left.
+				}
+				
+				
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		return 0;
 	}
 

@@ -1,8 +1,10 @@
+package Player;
 
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -23,6 +25,8 @@ public class TestPlayer {
 	int timeLimit = 0;
 	
 	MiniMaxTree gameTree;
+	
+	public static ArrayList<Integer> weights;
 	
 	Board gameBoard;
 	
@@ -77,6 +81,11 @@ public class TestPlayer {
 			if(!first_move){
 				//make the first move
 				System.out.println("4 1");
+			}
+			
+			weights = new ArrayList<Integer>();
+			for(int i = 1; i < nNum; i++){
+				weights.add(i*i);
 			}
 			
 		}
