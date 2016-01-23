@@ -9,6 +9,7 @@ import java.util.List;
 
 import AIPlayer.Board;
 import AIPlayer.MiniMaxTree;
+import AIPlayer.PlayerMove;
 
 
 public class TestPlayer {
@@ -49,11 +50,12 @@ public class TestPlayer {
 			//TODO: implement everything here.
 			//Perform MiniMax and pruning using heuristic. 
 			//Return a move within the time limit.
+			PlayerMove bestFoundMove;
+			for(int i = 1; System.currentTimeMillis() > (startingTime + (timeLimit*1000))-2; i++){
+				//bestFoundMove = gameTree.performMiniMaxSearch(i, Integer.MIN_VALUE, Integer.MAX_VALUE);	
+			}
 			
-			//for(int i = 1; System.currentTimeMillis() > (startingTime + (timeLimit*1000))-2; i++){
-					//gameTree.buildTreeToDepth(i);
-			//}
-			
+			//System.out.println(bestFoundMove.column + " " + bestFoundMove.moveType);
 			
 		}
 		else if(ls.size()==1){
