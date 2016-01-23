@@ -42,13 +42,6 @@ public class MiniMaxTree {
 				}
 				if(alpha >= beta)break;
 			}
-		} else {
-			result = Integer.MAX_VALUE;
-
-			for (MiniMaxTree child : children) {
-				int thisChildsNum = child.performMiniMaxSearch();
-				if (thisChildsNum < result) {
-					result = thisChildsNum;
 			return alpha;
 		}else{
 			
@@ -57,15 +50,11 @@ public class MiniMaxTree {
 				if(thisChildsNum < beta){
 					beta = thisChildsNum;
 					moveForThisTree = child.moveForThisTree;
-
 				}
 				if(alpha >= beta)break;
 			}
 			return beta;
 		}
-
-		return result;
-
 	}
 
 	public void buildTreeToDepth(int i) {
