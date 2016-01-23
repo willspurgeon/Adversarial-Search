@@ -61,8 +61,7 @@ public class MiniMaxTree {
 			//Build all possible boards for drop.
 			Board Temp = new Board( gameBoard.height, gameBoard.width, gameBoard.getN());
 			Temp.dropADiscFromTop(j, playerturn%2);
-			buildTreeToDepth(i-1);
-			i--;
+		
 		}
 		
 		for(int j = 0; j < gameBoard.width; j++){
@@ -73,8 +72,12 @@ public class MiniMaxTree {
 			{	
 				Temp.removeADiscFromBottom(j);
 			}
+		
+			
+		}
+		
+		for(int j = 0; j < gameBoard.width; j++){
 			buildTreeToDepth(i-1);
-			i--;
 		}
 		
 		
