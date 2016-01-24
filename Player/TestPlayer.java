@@ -80,6 +80,10 @@ public class TestPlayer {
 			firstPlayer = Integer.parseInt(ls.get(3));
 			timeLimit = Integer.parseInt(ls.get(4));
 			
+			first_move = (playerNum == firstPlayer) ? true: false;
+			Printer.printToDebugFile("First player " + firstPlayer);
+			Printer.printToDebugFile("We go first? " + first_move);
+			
 			Board gameBoard = new Board(boardHeight, boardWidth, nNum);
 			gameTree = new MiniMaxTree(gameBoard, true, playerNum);
 			if(first_move){
@@ -92,17 +96,16 @@ public class TestPlayer {
 				weights.add(i*i);
 			}
 			
-		}
-		else if(ls.size()==4){		//player1: aa player2: bb
+		}else if(ls.size()==4){		//player1: aa player2: bb
 			if(ls.get(1).equals(playerName)){
 				playerNum = 1;
 				opponentNum = 2;
-				first_move = (firstPlayer == 1) ? true : false;
 			}else{
 				playerNum = 2;
 				opponentNum = 1;
-				first_move = (firstPlayer == 2) ? true : false;
 			}
+			
+			Printer.printToDebugFile("We are player " + playerNum);
 		}
 		else
 			System.out.println("not what I want");
@@ -110,6 +113,7 @@ public class TestPlayer {
 	
 	public static void main(String[] args) throws IOException {
 		TestPlayer rp=new TestPlayer();
+		Printer.printToDebugFile("\n\n");
 		System.out.println(rp.playerName);
 		while (true){
 			rp.processInput();
