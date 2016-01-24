@@ -58,11 +58,11 @@ public class CustomBoard {
 	 
 	 public boolean canRemoveADiscFromBottom(int col, int currentPlayer){
 		 if(col<0 || col>=this.width) {
-			 System.out.println("Illegal column!");
+			 //System.out.println("Illegal column!");
 			 return false;
 			 }
 		 else if(board[height-1][col]!=currentPlayer){
-			 System.out.println("You don't have a checker in column "+col+" to pop out!");
+			 //System.out.println("You don't have a checker in column "+col+" to pop out!");
 			 return false;
 		 }
 		 else 
@@ -83,11 +83,11 @@ public class CustomBoard {
 	 
 	 public boolean canDropADiscFromTop(int col, int currentPlayer){
 		 if(col<0 || col>=this.width) {
-			 System.out.println("Illegal column!");
+			 //System.out.println("Illegal column!");
 			 return false;
 			 }
 		 else if(this.numOfDiscsInColumn[col]==this.height){
-			 System.out.println("Column is already full. Cannot drop more disc in it.");
+			 //System.out.println("Column is already full. Cannot drop more disc in it.");
 			 return false;
 		 }
 		 else
@@ -95,12 +95,14 @@ public class CustomBoard {
 	 }
 	 
 	 public void dropADiscFromTop(int col, int currentplayer){
-		 //Printer.printToDebugFile("About to be dropping a disc.");
+		 Printer.printToDebugFile("About to be dropping a disc.");
 		 int firstEmptyCellRow=height-this.numOfDiscsInColumn[col]-1;
+		 Printer.printToDebugFile("About to be dropping a disc.3");
+		 Printer.printToDebugFile("First: " + firstEmptyCellRow + "Col: " + col);
 		 board[firstEmptyCellRow][col]=currentplayer;
-		 //Printer.printToDebugFile("About to be dropping a disc.2");
+		 Printer.printToDebugFile("About to be dropping a disc.2");
 		 this.numOfDiscsInColumn[col]++;
-		 //Printer.printToDebugFile("Done dropping a disc.");
+		 Printer.printToDebugFile("Done dropping a disc.");
 	 }
 	 
 	 /**

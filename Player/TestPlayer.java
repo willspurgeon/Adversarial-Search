@@ -53,8 +53,8 @@ public class TestPlayer {
 				Printer.printToDebugFile("OpponentNum " + opponentNum);
 				int colNum = Integer.parseInt(ls.get(0));
 				Printer.printToDebugFile("ColNum: " + colNum);
-				Printer.printToDebugFile("Can drop? " + gameBoard.canDropADiscFromTop(colNum, opponentNum));
-				gameBoard.dropADiscFromTop(Integer.parseInt(ls.get(0)), opponentNum);
+				Printer.printToDebugFile("Can drop? Col: " + colNum + " " + gameBoard.canDropADiscFromTop(colNum, opponentNum));
+				gameBoard.dropADiscFromTop(colNum, opponentNum);
 				Printer.printToDebugFile("About to build tree7");
 			}
 
@@ -65,6 +65,7 @@ public class TestPlayer {
 			Printer.printToDebugFile("About to build tree");
 			int treeDepth = 2;
 			gameTree.buildTreeToDepth(treeDepth);
+			/*
 			Printer.printToDebugFile("Done building tree");
 
 			for(int i = 1; System.currentTimeMillis() < (startingTime + (timeLimit*1000)); i++){
@@ -77,7 +78,10 @@ public class TestPlayer {
 				}
 			}
 			Printer.printToDebugFile("About to send move: " + gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
-			System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
+			//System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
+			*/
+			System.out.println("1 1");
+			gameBoard.dropADiscFromTop(1, playerNum);
 			Printer.printToDebugFile("Sent Move");
 		}else if(ls.size()==1){
 			System.out.println("game over!!!");
@@ -95,6 +99,7 @@ public class TestPlayer {
 			Printer.printToDebugFile("First player " + firstPlayer);
 			Printer.printToDebugFile("We go first? " + first_move);
 			
+			Printer.printToDebugFile("Creating new board. Height, Width: " + boardHeight + " " + boardWidth);
 			gameBoard = new CustomBoard(boardHeight, boardWidth, nNum);
 			gameTree = new MiniMaxTree(gameBoard, true, playerNum);
 			if(first_move){

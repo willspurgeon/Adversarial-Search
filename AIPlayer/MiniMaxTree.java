@@ -41,7 +41,7 @@ public class MiniMaxTree {
 				if (gameBoard.board[j][i] != 9)
 					continue;
 
-				Printer.printToDebugFile("About to try right.");
+				//Printer.printToDebugFile("About to try right.");
 				if (i != gameBoard.width) {
 					// Check right
 					int rowPlayerValue = 10;
@@ -67,7 +67,7 @@ public class MiniMaxTree {
 						}
 					}
 				}
-				Printer.printToDebugFile("About to try left.");
+				//Printer.printToDebugFile("About to try left.");
 				if (i != 0) {
 					// Check left.
 					int rowPlayerValue = 10;
@@ -107,7 +107,7 @@ public class MiniMaxTree {
 						}
 					}
 				}
-				Printer.printToDebugFile("About to try bottom.");
+				//Printer.printToDebugFile("About to try bottom.");
 				if (j != 0) {
 					// Check bottom.
 					int rowPlayerValue = 10;
@@ -134,7 +134,7 @@ public class MiniMaxTree {
 					}
 				}
 
-				Printer.printToDebugFile("About to try top right.");
+				//Printer.printToDebugFile("About to try top right.");
 				if (j != gameBoard.height && i != gameBoard.width) {
 					// Check Top right.
 					int rowPlayerValue = 10;
@@ -147,7 +147,7 @@ public class MiniMaxTree {
 						} else {
 							// Printer.printToDebugFile("top right2");
 							if (gameBoard.board[y][xValue] == rowPlayerValue) {
-								Printer.printToDebugFile("top right3");
+								//Printer.printToDebugFile("top right3");
 								inARow++;
 							} else {
 								// Printer.printToDebugFile("top right4");
@@ -166,7 +166,7 @@ public class MiniMaxTree {
 						xValue++;
 					}
 				}
-				Printer.printToDebugFile("About to try bottom right.");
+				//Printer.printToDebugFile("About to try bottom right.");
 				if (i + 1 != gameBoard.width && j != 0) {
 					// Check Bottom right
 					int rowPlayerValue = 10;
@@ -195,7 +195,7 @@ public class MiniMaxTree {
 						xValue++;
 					}
 				}
-				Printer.printToDebugFile("About to try top left.");
+				//Printer.printToDebugFile("About to try top left.");
 				if (i != 0 && j + 1 != gameBoard.height) {
 					// Check top left.
 					int rowPlayerValue = 10;
@@ -223,7 +223,7 @@ public class MiniMaxTree {
 						xValue--;
 					}
 				}
-				Printer.printToDebugFile("About to try bottom left.");
+				//Printer.printToDebugFile("About to try bottom left.");
 				if (j != 0 && i != 0) {
 					// Check bottom left.
 					int rowPlayerValue = 10;
@@ -337,8 +337,10 @@ public class MiniMaxTree {
 			}
 		}
 
-		for (MiniMaxTree child : children) {
-			child.buildTreeToDepth(i - 1);
+		if(children != null){
+			for (MiniMaxTree child : children) {
+				child.buildTreeToDepth(i - 1);
+			}
 		}
 	}
 
