@@ -317,6 +317,7 @@ public class MiniMaxTree {
 			CustomBoard temp = CustomBoard.getBoardCopy(gameBoard);
 			// Printer.printToDebugFile("Building drop boards: " + j);
 			if (temp.canDropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum == 1) ? 2 : 1))) {
+				Printer.printToDebugFile("Build drop disc.");
 				temp.dropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum == 1) ? 2 : 1));
 				MiniMaxTree tempTree = new MiniMaxTree(temp, !thisIsMax, playerNum);
 				tempTree.moveForThisTree = new PlayerMove(j, TypeOfMove.Drop);
@@ -330,6 +331,7 @@ public class MiniMaxTree {
 			CustomBoard temp = CustomBoard.getBoardCopy(gameBoard);
 			// Printer.printToDebugFile("Building drop boards: " + j);
 			if (temp.canRemoveADiscFromBottom(j, thisIsMax ? playerNum : ((playerNum == 1) ? 2 : 1))) {
+				Printer.printToDebugFile("Build remove disc.");
 				temp.removeADiscFromBottom(j);
 				MiniMaxTree tempTree = new MiniMaxTree(temp, !thisIsMax, playerNum);
 				tempTree.moveForThisTree = new PlayerMove(j, TypeOfMove.PopOut);

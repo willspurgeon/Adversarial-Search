@@ -16,7 +16,7 @@ import AIPlayer.PlayerMove;
 
 public class TestPlayer {
 
-	String playerName="Bogey";
+	String playerName="Tucker";
 	BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 	boolean first_move=false;
 	int firstPlayer = 0;
@@ -54,7 +54,9 @@ public class TestPlayer {
 				int colNum = Integer.parseInt(ls.get(0));
 				Printer.printToDebugFile("ColNum: " + colNum);
 				Printer.printToDebugFile("Can drop? Col: " + colNum + " " + gameBoard.canDropADiscFromTop(colNum, opponentNum));
-				gameBoard.dropADiscFromTop(colNum, opponentNum);
+				if(gameBoard.canDropADiscFromTop(colNum, opponentNum)){
+					gameBoard.dropADiscFromTop(colNum, opponentNum);
+				}
 				Printer.printToDebugFile("About to build tree7");
 			}
 
@@ -65,7 +67,7 @@ public class TestPlayer {
 			Printer.printToDebugFile("About to build tree");
 			int treeDepth = 2;
 			gameTree.buildTreeToDepth(treeDepth);
-			/*
+			
 			Printer.printToDebugFile("Done building tree");
 
 			for(int i = 1; System.currentTimeMillis() < (startingTime + (timeLimit*1000)); i++){
@@ -78,10 +80,11 @@ public class TestPlayer {
 				}
 			}
 			Printer.printToDebugFile("About to send move: " + gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
-			//System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
-			*/
-			System.out.println("1 1");
-			gameBoard.dropADiscFromTop(1, playerNum);
+			System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
+			//*/
+			//System.out.println("1 1");
+			Printer.printToDebugFile("Sent 1 1");
+			//gameBoard.dropADiscFromTop(1, playerNum);
 			Printer.printToDebugFile("Sent Move");
 		}else if(ls.size()==1){
 			System.out.println("game over!!!");
