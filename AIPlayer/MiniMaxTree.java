@@ -71,6 +71,37 @@ public class MiniMaxTree {
 						}
 					}
 				}
+				
+				if (j != gameBoard.height) {
+					// Check top
+					int rowPlayerValue = 10;
+					int inARow = 0;
+					for (int y = j + 1; y < gameBoard.height; y++) {
+						if (y == j + 1) {
+							if (gameBoard.board[y][i] == 9) {
+								break;
+							}
+							rowPlayerValue = gameBoard.board[y][i];
+						} else {
+							if (gameBoard.board[y][i] == rowPlayerValue) {
+								inARow++;
+							} else {
+								if (playerNum == rowPlayerValue) {
+									if (inARow > 0) {
+										myValue = myValue + TestPlayer.weights.get(inARow);
+									}
+								} else {
+									if (inARow > 0) {
+										opponentValue = opponentValue + TestPlayer.weights.get(inARow);
+									}
+								}
+								break;
+							}
+						}
+					}
+				}
+				
+				
 				//Printer.printToDebugFile("About to try left.");
 				if (i != 0) {
 					// Check left.
@@ -261,11 +292,14 @@ public class MiniMaxTree {
 								break;
 							}
 						}
+						xValue--;	// was in the wrong place
 					}
-					xValue--;
+					
 				}
 			}
 		}
+		Printer.printToDebugFile("My Value: "+myValue);
+		Printer.printToDebugFile("Opponents Value: "+opponentValue);
 		Printer.printToDebugFile("Returning utility value of: " + (myValue - opponentValue));
 		return myValue - opponentValue;
 	}
