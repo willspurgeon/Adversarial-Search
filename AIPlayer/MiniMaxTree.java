@@ -1,8 +1,10 @@
 package AIPlayer;
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 
 import AIPlayer.PlayerMove.TypeOfMove;
+import Player.Printer;
 import Player.TestPlayer;
 
 public class MiniMaxTree {
@@ -239,6 +241,7 @@ public class MiniMaxTree {
 			return;
 		}
 
+		Printer.printToDebugFile("Building new tree. On depth level " + i);
 		children = new ArrayList<MiniMaxTree>();
 
 		for (int j = 0; j < gameBoard.width; j++) {

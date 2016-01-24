@@ -1,4 +1,7 @@
 package AIPlayer;
+
+import Player.Printer;
+
 /**
  * This code is created for cs 4341 AI 2013a at WPI. All rights are reserved. 
  */
@@ -95,6 +98,7 @@ public class Board {
 		 int firstEmptyCellRow=height-this.numOfDiscsInColumn[col]-1;
 		 board[firstEmptyCellRow][col]=currentplayer;
 		 this.numOfDiscsInColumn[col]++;
+		 Printer.printToDebugFile("Done dropping a disc.");
 	 }
 	 
 	 /**

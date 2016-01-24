@@ -16,7 +16,7 @@ import AIPlayer.PlayerMove;
 
 public class TestPlayer {
 
-	String playerName="TitsMcGee";
+	String playerName="Bogey";
 	BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 	boolean first_move=false;
 	int firstPlayer = 0;
@@ -36,27 +36,31 @@ public class TestPlayer {
 		List<String> ls = Arrays.asList(s.split(" "));
 		//Add the last move to our game board.
 		if(ls.size()==2){
-			//System.err.println("THIS IS A DIAGNOSTIC MESSAGE");
+			Printer.printToDebugFile("Beginning program.");
 			//This code is called when the referee returns the opponents move. 
 			//Update game board and build tree/respond with new move.
-			
+			Printer.printToDebugFile("About to build tree2");
 			long startingTime = System.currentTimeMillis();
-			System.out.println(ls.get(0)+" "+ls.get(1));
-			
+			//System.out.println(ls.get(0)+" "+ls.get(1));
+			Printer.printToDebugFile("About to build tree3");
 			if(Integer.parseInt(ls.get(1)) == 0){
 				//POP out
+				Printer.printToDebugFile("About to build tree4");
 				gameBoard.removeADiscFromBottom(Integer.parseInt(ls.get(0)));
 			}else{
 				//Drop
+				Printer.printToDebugFile("About to drop " + Integer.parseInt(ls.get(1)));
 				gameBoard.dropADiscFromTop(Integer.parseInt(ls.get(0)), opponentNum);
+				Printer.printToDebugFile("About to build tree7");
 			}
-			
-			//TODO: implement everything here.
+
 			//Perform MiniMax and pruning using heuristic. 
 			//Return a move within the time limit.
+			Printer.printToDebugFile("About to build tree6");
 			PlayerMove bestFoundMove;
-			gameTree.buildTreeToDepth(10);
-			for(int i = 1; System.currentTimeMillis() > (startingTime + (timeLimit*1000))-2; i++){
+			Printer.printToDebugFile("About to build tree");
+			gameTree.buildTreeToDepth(2);
+			for(int i = 1; System.currentTimeMillis() < (startingTime + (timeLimit*1000)); i++){
 				gameTree.performMiniMaxSearch(i, Integer.MIN_VALUE, Integer.MAX_VALUE, true);	
 			}
 			
