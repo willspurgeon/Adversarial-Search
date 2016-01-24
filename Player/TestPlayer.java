@@ -34,18 +34,12 @@ public class TestPlayer {
 		
     	String s=input.readLine();	
 		List<String> ls = Arrays.asList(s.split(" "));
-		//Add the last move to our game board.
 		if(ls.size()==2){
-			//System.out.println("4 1");
 			//This code is called when the referee returns the opponents move. 
 			//Update game board and build tree/respond with new move.
-			Printer.printToDebugFile("About to build tree2");
 			long startingTime = System.currentTimeMillis();
-			//System.out.println(ls.get(0)+" "+ls.get(1));
-			Printer.printToDebugFile("About to build tree3");
 			if(Integer.parseInt(ls.get(1)) == 0){
 				//POP out
-				Printer.printToDebugFile("About to build tree4");
 				gameBoard.removeADiscFromBottom(Integer.parseInt(ls.get(0)));
 			}else{
 				//Drop
@@ -57,18 +51,13 @@ public class TestPlayer {
 				if(gameBoard.canDropADiscFromTop(colNum, opponentNum)){
 					gameBoard.dropADiscFromTop(colNum, opponentNum);
 				}
-				Printer.printToDebugFile("About to build tree7");
 			}
 
 			//Perform MiniMax and pruning using heuristic. 
 			//Return a move within the time limit.
-			Printer.printToDebugFile("About to build tree6");
 			PlayerMove bestFoundMove;
-			Printer.printToDebugFile("About to build tree");
 			int treeDepth = 2;
 			gameTree.buildTreeToDepth(treeDepth);
-			
-			Printer.printToDebugFile("Done building tree");
 
 			for(int i = 1; System.currentTimeMillis() < (startingTime + (timeLimit*1000)); i++){
 				if (i <= treeDepth) {
@@ -81,10 +70,7 @@ public class TestPlayer {
 			}
 			Printer.printToDebugFile("About to send move: " + gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
 			System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
-			//*/
-			//System.out.println("1 1");
-			Printer.printToDebugFile("Sent 1 1");
-			//gameBoard.dropADiscFromTop(1, playerNum);
+
 			Printer.printToDebugFile("Sent Move");
 		}else if(ls.size()==1){
 			System.out.println("game over!!!");
