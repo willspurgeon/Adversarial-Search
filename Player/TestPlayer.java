@@ -16,7 +16,7 @@ import AIPlayer.PlayerMove;
 
 public class TestPlayer {
 
-	String playerName="Tucker";
+	String playerName="Bogey";
 	BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 	boolean first_move=false;
 	int firstPlayer = 0;
@@ -57,6 +57,7 @@ public class TestPlayer {
 			//Return a move within the time limit.
 			PlayerMove bestFoundMove;
 			int treeDepth = 2;
+			gameTree.gameBoard = gameBoard;
 			gameTree.buildTreeToDepth(treeDepth);
 
 			for(int i = 1; System.currentTimeMillis() < (startingTime + (timeLimit*1000)); i++){

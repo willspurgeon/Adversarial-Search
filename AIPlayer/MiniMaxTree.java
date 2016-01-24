@@ -8,7 +8,7 @@ import Player.Printer;
 import Player.TestPlayer;
 
 public class MiniMaxTree {
-	CustomBoard gameBoard;
+	public CustomBoard gameBoard;
 	boolean thisIsMax;
 	int playerNum;
 
@@ -38,16 +38,20 @@ public class MiniMaxTree {
 		Printer.printToDebugFile("Starting utility function");
 		for (int i = 0; i < gameBoard.width; i++) {
 			for (int j = 0; j < gameBoard.height; j++) {
-				if (gameBoard.board[j][i] != 9)
+				if (gameBoard.board[j][i] != 9){
 					continue;
+				}
 
-				//Printer.printToDebugFile("About to try right.");
+				// Printer.printToDebugFile("About to try right.");
 				if (i != gameBoard.width) {
 					// Check right
 					int rowPlayerValue = 10;
 					int inARow = 0;
 					for (int y = i + 1; y < gameBoard.width; y++) {
 						if (y == i + 1) {
+							if (gameBoard.board[j][y] == 9) {
+								break;
+							}
 							rowPlayerValue = gameBoard.board[j][y];
 						} else {
 							if (gameBoard.board[j][y] == rowPlayerValue) {
@@ -74,6 +78,9 @@ public class MiniMaxTree {
 					int inARow = 0;
 					for (int y = i - 1; y >= 0; y--) {
 						if (y == i - 1) {
+							if (gameBoard.board[j][y] == 9) {
+								break;
+							}
 							// Printer.printToDebugFile("left1");
 							rowPlayerValue = gameBoard.board[j][y];
 						} else {
@@ -88,19 +95,10 @@ public class MiniMaxTree {
 									if (inARow > 0) {
 										myValue = myValue + TestPlayer.weights.get(inARow - 1);
 									}
-									// Printer.printToDebugFile("left8");
 								} else {
-									// Printer.printToDebugFile("left6");
-									// Printer.printToDebugFile("Size of weights
-									// " + TestPlayer.weights.size());
-									// Printer.printToDebugFile("Opponent Value:
-									// " + opponentValue);
-									// Printer.printToDebugFile("In a row: " +
-									// inARow);
 									if (inARow > 0) {
 										opponentValue = opponentValue + TestPlayer.weights.get(inARow - 1);
 									}
-									// Printer.printToDebugFile("left7");
 								}
 								break;
 							}
@@ -114,6 +112,9 @@ public class MiniMaxTree {
 					int inARow = 0;
 					for (int y = j - 1; y >= 0; y--) {
 						if (y == j - 1) {
+							if (gameBoard.board[y][i] == 9) {
+								break;
+							}
 							rowPlayerValue = gameBoard.board[y][i];
 						} else {
 							if (gameBoard.board[y][i] == rowPlayerValue) {
@@ -142,6 +143,9 @@ public class MiniMaxTree {
 					int xValue = i;
 					for (int y = j + 1; y < gameBoard.height && xValue + 1 < gameBoard.width; y++) {
 						if (y == j + 1) {
+							if (gameBoard.board[y][xValue] == 9) {
+								break;
+							}
 							// Printer.printToDebugFile("top right1");
 							rowPlayerValue = gameBoard.board[y][xValue];
 						} else {
@@ -175,6 +179,9 @@ public class MiniMaxTree {
 					for (int y = j - 1; y >= 0 && xValue + 1 < gameBoard.width; y--) {
 
 						if (y == j - 1) {
+							if (gameBoard.board[y][xValue] == 9) {
+								break;
+							}
 							rowPlayerValue = gameBoard.board[y][xValue];
 						} else {
 							if (gameBoard.board[y][xValue] == rowPlayerValue) {
@@ -203,6 +210,9 @@ public class MiniMaxTree {
 					int xValue = i;
 					for (int y = j + 1; y < gameBoard.height && xValue - 1 > 0; y++) {
 						if (y == j + 1) {
+							if (gameBoard.board[y][xValue] == 9) {
+								break;
+							}
 							rowPlayerValue = gameBoard.board[y][xValue];
 						} else {
 							if (gameBoard.board[y][xValue] == rowPlayerValue) {
@@ -231,6 +241,9 @@ public class MiniMaxTree {
 					int xValue = i;
 					for (int y = j - 1; y > 0 && xValue - 1 > 0; y--) {
 						if (y == j - 1) {
+							if (gameBoard.board[y][xValue] == 9) {
+								break;
+							}
 							rowPlayerValue = gameBoard.board[y][xValue];
 						} else {
 							if (gameBoard.board[y][xValue] == rowPlayerValue) {
@@ -269,12 +282,12 @@ public class MiniMaxTree {
 					for (MiniMaxTree child : children) {
 						Printer.printToDebugFile("MiniMax3");
 						int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false);
-						Printer.printToDebugFile("MiniMax7");
 						if (thisChildsNum > alpha) {
 							alpha = thisChildsNum;
+							moveForThisTree = child.moveForThisTree;
 							if (calledFromRoot) {
 								Printer.printToDebugFile("MiniMax4");
-								moveForThisTree = child.moveForThisTree;
+								//moveForThisTree = child.moveForThisTree;
 							}
 						}
 						if (alpha >= beta)
@@ -291,8 +304,10 @@ public class MiniMaxTree {
 						int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false);
 						if (thisChildsNum < beta) {
 							beta = thisChildsNum;
-							if (calledFromRoot)
-								moveForThisTree = child.moveForThisTree;
+							moveForThisTree = child.moveForThisTree;
+							if (calledFromRoot){
+								//moveForThisTree = child.moveForThisTree;
+							}
 						}
 						if (alpha >= beta)
 							break;
@@ -304,7 +319,7 @@ public class MiniMaxTree {
 	}
 
 	public void buildTreeToDepth(int i) {
-		if (i < 1) {
+		if (i <= 1) {
 			return;
 		}
 
