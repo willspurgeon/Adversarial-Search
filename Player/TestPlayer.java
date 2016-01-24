@@ -82,7 +82,7 @@ public class TestPlayer {
 			
 			Board gameBoard = new Board(boardHeight, boardWidth, nNum);
 			gameTree = new MiniMaxTree(gameBoard, true, playerNum);
-			if(!first_move){
+			if(first_move){
 				//make the first move
 				System.out.println("4 1");
 			}
