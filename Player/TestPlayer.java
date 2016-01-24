@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import AIPlayer.Board;
+import AIPlayer.CustomBoard;
 import AIPlayer.MiniMaxTree;
 import AIPlayer.PlayerMove;
 
@@ -28,7 +28,7 @@ public class TestPlayer {
 	
 	public static ArrayList<Integer> weights;
 	
-	Board gameBoard;
+	CustomBoard gameBoard;
 	
 	public void processInput() throws IOException{	
 		
@@ -36,7 +36,7 @@ public class TestPlayer {
 		List<String> ls = Arrays.asList(s.split(" "));
 		//Add the last move to our game board.
 		if(ls.size()==2){
-			Printer.printToDebugFile("Beginning program.");
+			//System.out.println("4 1");
 			//This code is called when the referee returns the opponents move. 
 			//Update game board and build tree/respond with new move.
 			Printer.printToDebugFile("About to build tree2");
@@ -49,7 +49,11 @@ public class TestPlayer {
 				gameBoard.removeADiscFromBottom(Integer.parseInt(ls.get(0)));
 			}else{
 				//Drop
-				Printer.printToDebugFile("About to drop " + Integer.parseInt(ls.get(1)));
+				Printer.printToDebugFile("About to drop " + Integer.parseInt(ls.get(0)));
+				Printer.printToDebugFile("OpponentNum " + opponentNum);
+				int colNum = Integer.parseInt(ls.get(0));
+				Printer.printToDebugFile("ColNum: " + colNum);
+				Printer.printToDebugFile("Can drop? " + gameBoard.canDropADiscFromTop(colNum, opponentNum));
 				gameBoard.dropADiscFromTop(Integer.parseInt(ls.get(0)), opponentNum);
 				Printer.printToDebugFile("About to build tree7");
 			}
@@ -59,20 +63,27 @@ public class TestPlayer {
 			Printer.printToDebugFile("About to build tree6");
 			PlayerMove bestFoundMove;
 			Printer.printToDebugFile("About to build tree");
-			gameTree.buildTreeToDepth(2);
+			int treeDepth = 2;
+			gameTree.buildTreeToDepth(treeDepth);
+			Printer.printToDebugFile("Done building tree");
+
 			for(int i = 1; System.currentTimeMillis() < (startingTime + (timeLimit*1000)); i++){
-				gameTree.performMiniMaxSearch(i, Integer.MIN_VALUE, Integer.MAX_VALUE, true);	
+				if (i <= treeDepth) {
+					Printer.printToDebugFile("MiniMax for i value: " + i);
+					gameTree.performMiniMaxSearch(i, Integer.MIN_VALUE, Integer.MAX_VALUE, true);
+					Printer.printToDebugFile("Done MiniMax for i value: " + i);
+				}else{
+					break;
+				}
 			}
-			
-			System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType);
-			
-		}
-		else if(ls.size()==1){
+			Printer.printToDebugFile("About to send move: " + gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
+			System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
+			Printer.printToDebugFile("Sent Move");
+		}else if(ls.size()==1){
 			System.out.println("game over!!!");
 			System.exit(0);
-		}
-		else if(ls.size()==5){          //ls contains game info
-			
+		}else if(ls.size()==5){          //ls contains game info
+			//Receive game information.
 			//height col N playerThatGoesFirst timeLimit
 			int boardHeight = Integer.parseInt(ls.get(0));
 			int boardWidth = Integer.parseInt(ls.get(1));
@@ -84,7 +95,7 @@ public class TestPlayer {
 			Printer.printToDebugFile("First player " + firstPlayer);
 			Printer.printToDebugFile("We go first? " + first_move);
 			
-			Board gameBoard = new Board(boardHeight, boardWidth, nNum);
+			gameBoard = new CustomBoard(boardHeight, boardWidth, nNum);
 			gameTree = new MiniMaxTree(gameBoard, true, playerNum);
 			if(first_move){
 				//make the first move
@@ -92,11 +103,12 @@ public class TestPlayer {
 			}
 			
 			weights = new ArrayList<Integer>();
-			for(int i = 1; i < nNum; i++){
+			for(int i = 1; i <= 10*nNum; i++){
 				weights.add(i*i);
 			}
 			
 		}else if(ls.size()==4){		//player1: aa player2: bb
+			//Receive the names of the players.
 			if(ls.get(1).equals(playerName)){
 				playerNum = 1;
 				opponentNum = 2;
@@ -106,9 +118,10 @@ public class TestPlayer {
 			}
 			
 			Printer.printToDebugFile("We are player " + playerNum);
-		}
-		else
+		}else{
+			Printer.printToDebugFile("NOT WHAT I WANT");
 			System.out.println("not what I want");
+		}
 	}
 	
 	public static void main(String[] args) throws IOException {

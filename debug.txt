@@ -1,1 +1,4056 @@
 
+
+
+We are player 2
+First player 2
+We go first? true
+About to build tree2
+About to build tree3
+About to drop 0
+OpponentNum 1
+ColNum: 0
+Can drop? true
+About to build tree7
+About to build tree6
+About to build tree
+Building new tree. On depth level 2
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Building new tree. On depth level 1
+Done building tree
+MiniMax for i value: 1
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+Done MiniMax for i value: 1
+MiniMax for i value: 2
+MiniMax1
+MiniMax2
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax4
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax3
+Getting utility of board
+Starting utility function
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+top right3
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+About to try right.
+About to try left.
+About to try bottom.
+About to try top right.
+About to try bottom right.
+About to try top left.
+About to try bottom left.
+Returning utility value of: -180
+MiniMax7
+MiniMax8
+Done MiniMax for i value: 2
+About to send move: 0 1
+Sent Move

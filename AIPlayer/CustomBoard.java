@@ -11,7 +11,7 @@ import Player.Printer;
  * @author lzhu
  *
  */
-public class Board {
+public class CustomBoard {
 	
 	public int width;
 	public int height;
@@ -24,11 +24,11 @@ public class Board {
 	int NOCONNECTION=-1;
 	int TIE=0;
 	
-	public static Board getBoardCopy(Board in){
+	public static CustomBoard getBoardCopy(CustomBoard in){
 		return in;
 	}
 	
-	 public Board(int height, int width, int N){
+	 public CustomBoard(int height, int width, int N){
 		this.width=width;
 		this.height=height;
 		board =new int[height][width];
@@ -95,12 +95,12 @@ public class Board {
 	 }
 	 
 	 public void dropADiscFromTop(int col, int currentplayer){
-		 Printer.printToDebugFile("About to be dropping a disc.");
+		 //Printer.printToDebugFile("About to be dropping a disc.");
 		 int firstEmptyCellRow=height-this.numOfDiscsInColumn[col]-1;
 		 board[firstEmptyCellRow][col]=currentplayer;
-		 Printer.printToDebugFile("About to be dropping a disc.2");
+		 //Printer.printToDebugFile("About to be dropping a disc.2");
 		 this.numOfDiscsInColumn[col]++;
-		 Printer.printToDebugFile("Done dropping a disc.");
+		 //Printer.printToDebugFile("Done dropping a disc.");
 	 }
 	 
 	 /**
@@ -411,7 +411,7 @@ public class Board {
 	 } 
 	 
 	 public static void main(String [] arg){
-		 Board b=new Board(6,7,3);
+		 CustomBoard b=new CustomBoard(6,7,3);
 
  		 b.printBoard();
 //		 b.test1();

@@ -8,17 +8,15 @@ import Player.Printer;
 import Player.TestPlayer;
 
 public class MiniMaxTree {
-	Board gameBoard;
+	CustomBoard gameBoard;
 	boolean thisIsMax;
 	int playerNum;
 
-	
 	public PlayerMove moveForThisTree = null;
-	
+
 	ArrayList<MiniMaxTree> children;
-	
-	
-	public MiniMaxTree(Board board, boolean rootIsMax, int playerNum){
+
+	public MiniMaxTree(CustomBoard board, boolean rootIsMax, int playerNum) {
 
 		this.gameBoard = board;
 		this.thisIsMax = rootIsMax;
@@ -31,208 +29,277 @@ public class MiniMaxTree {
 	 */
 	public int getUtilityOfRootBoard() {
 		// TODO: Implement heuristic here.
-		//i width
-		//j height
-		
+		// i width
+		// j height
+
 		int myValue = 0;
 		int opponentValue = 0;
-		
-		
-		for(int i = 0; i < gameBoard.width; i++){
-			for(int j = 0; j < gameBoard.height; j++){
-				if(gameBoard.board[j][i] != 9) continue;
-				
-				if(i != gameBoard.width){
-					//Check right
+
+		Printer.printToDebugFile("Starting utility function");
+		for (int i = 0; i < gameBoard.width; i++) {
+			for (int j = 0; j < gameBoard.height; j++) {
+				if (gameBoard.board[j][i] != 9)
+					continue;
+
+				Printer.printToDebugFile("About to try right.");
+				if (i != gameBoard.width) {
+					// Check right
 					int rowPlayerValue = 10;
 					int inARow = 0;
-					for(int y = i+1; y < gameBoard.width; y++){
-						if(y==i+1){
+					for (int y = i + 1; y < gameBoard.width; y++) {
+						if (y == i + 1) {
 							rowPlayerValue = gameBoard.board[j][y];
-						}else{
-							if(gameBoard.board[j][y] == rowPlayerValue){
+						} else {
+							if (gameBoard.board[j][y] == rowPlayerValue) {
 								inARow++;
-							}else{
-								if(playerNum == rowPlayerValue){
-									myValue = myValue + TestPlayer.weights.get(inARow);
-								}else{
-									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+							} else {
+								if (playerNum == rowPlayerValue) {
+									if (inARow > 0) {
+										myValue = myValue + TestPlayer.weights.get(inARow);
+									}
+								} else {
+									if (inARow > 0) {
+										opponentValue = opponentValue + TestPlayer.weights.get(inARow);
+									}
 								}
 								break;
 							}
 						}
 					}
 				}
-				if(i != 0){
-					//Check left.
+				Printer.printToDebugFile("About to try left.");
+				if (i != 0) {
+					// Check left.
 					int rowPlayerValue = 10;
 					int inARow = 0;
-					for(int y = i-1; y<=0; y--){
-						if(y==i-1){
+					for (int y = i - 1; y >= 0; y--) {
+						if (y == i - 1) {
+							// Printer.printToDebugFile("left1");
 							rowPlayerValue = gameBoard.board[j][y];
-						}else{
-							if(gameBoard.board[j][y] == rowPlayerValue){
+						} else {
+							// Printer.printToDebugFile("left2");
+							if (gameBoard.board[j][y] == rowPlayerValue) {
+								// Printer.printToDebugFile("left3");
 								inARow++;
-							}else{
-								if(playerNum == rowPlayerValue){
-									myValue = myValue + TestPlayer.weights.get(inARow);
-								}else{
-									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+							} else {
+								// Printer.printToDebugFile("left4");
+								if (playerNum == rowPlayerValue) {
+									// Printer.printToDebugFile("left5");
+									if (inARow > 0) {
+										myValue = myValue + TestPlayer.weights.get(inARow - 1);
+									}
+									// Printer.printToDebugFile("left8");
+								} else {
+									// Printer.printToDebugFile("left6");
+									// Printer.printToDebugFile("Size of weights
+									// " + TestPlayer.weights.size());
+									// Printer.printToDebugFile("Opponent Value:
+									// " + opponentValue);
+									// Printer.printToDebugFile("In a row: " +
+									// inARow);
+									if (inARow > 0) {
+										opponentValue = opponentValue + TestPlayer.weights.get(inARow - 1);
+									}
+									// Printer.printToDebugFile("left7");
 								}
 								break;
 							}
 						}
 					}
 				}
-				
-				if(j != 0){
-					//Check bottom.
+				Printer.printToDebugFile("About to try bottom.");
+				if (j != 0) {
+					// Check bottom.
 					int rowPlayerValue = 10;
 					int inARow = 0;
-					for(int y = j-1; y<=0; y--){
-						if(y==j-1){
+					for (int y = j - 1; y >= 0; y--) {
+						if (y == j - 1) {
 							rowPlayerValue = gameBoard.board[y][i];
-						}else{
-							if(gameBoard.board[y][i] == rowPlayerValue){
+						} else {
+							if (gameBoard.board[y][i] == rowPlayerValue) {
 								inARow++;
-							}else{
-								if(playerNum == rowPlayerValue){
-									myValue = myValue + TestPlayer.weights.get(inARow);
-								}else{
-									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+							} else {
+								if (playerNum == rowPlayerValue) {
+									if (inARow > 0) {
+										myValue = myValue + TestPlayer.weights.get(inARow);
+									}
+								} else {
+									if (inARow > 0) {
+										opponentValue = opponentValue + TestPlayer.weights.get(inARow);
+									}
 								}
 								break;
 							}
 						}
 					}
 				}
-				
-				
-				if(j != gameBoard.height && i != gameBoard.width){
-					//Check Top right.
+
+				Printer.printToDebugFile("About to try top right.");
+				if (j != gameBoard.height && i != gameBoard.width) {
+					// Check Top right.
 					int rowPlayerValue = 10;
 					int inARow = 0;
 					int xValue = i;
-					for(int y = j+1; y < gameBoard.height && xValue < gameBoard.width; y++){
+					for (int y = j + 1; y < gameBoard.height && xValue + 1 < gameBoard.width; y++) {
+						if (y == j + 1) {
+							// Printer.printToDebugFile("top right1");
+							rowPlayerValue = gameBoard.board[y][xValue];
+						} else {
+							// Printer.printToDebugFile("top right2");
+							if (gameBoard.board[y][xValue] == rowPlayerValue) {
+								Printer.printToDebugFile("top right3");
+								inARow++;
+							} else {
+								// Printer.printToDebugFile("top right4");
+								if (playerNum == rowPlayerValue) {
+									if (inARow > 0) {
+										myValue = myValue + TestPlayer.weights.get(inARow);
+									}
+								} else {
+									if (inARow > 0) {
+										opponentValue = opponentValue + TestPlayer.weights.get(inARow);
+									}
+								}
+								break;
+							}
+						}
 						xValue++;
-						if(y==j+1){
+					}
+				}
+				Printer.printToDebugFile("About to try bottom right.");
+				if (i + 1 != gameBoard.width && j != 0) {
+					// Check Bottom right
+					int rowPlayerValue = 10;
+					int inARow = 0;
+					int xValue = i;
+					for (int y = j - 1; y >= 0 && xValue + 1 < gameBoard.width; y--) {
+
+						if (y == j - 1) {
 							rowPlayerValue = gameBoard.board[y][xValue];
-						}else{
-							if(gameBoard.board[y][xValue] == rowPlayerValue){
+						} else {
+							if (gameBoard.board[y][xValue] == rowPlayerValue) {
 								inARow++;
-							}else{
-								if(playerNum == rowPlayerValue){
-									myValue = myValue + TestPlayer.weights.get(inARow);
-								}else{
-									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+							} else {
+								if (playerNum == rowPlayerValue) {
+									if (inARow > 0) {
+										myValue = myValue + TestPlayer.weights.get(inARow);
+									}
+								} else {
+									if (inARow > 0) {
+										opponentValue = opponentValue + TestPlayer.weights.get(inARow);
+									}
 								}
 								break;
 							}
 						}
-					}
-				}
-				if(i != gameBoard.width && j != 0){
-					//Check Bottom right
-					int rowPlayerValue = 10;
-					int inARow = 0;
-					int xValue = i;
-					for(int y = j-1; y > gameBoard.height && xValue < gameBoard.width; y--){
 						xValue++;
-						if(y==j-1){
-							rowPlayerValue = gameBoard.board[y][xValue];
-						}else{
-							if(gameBoard.board[y][xValue] == rowPlayerValue){
-								inARow++;
-							}else{
-								if(playerNum == rowPlayerValue){
-									myValue = myValue + TestPlayer.weights.get(inARow);
-								}else{
-									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
-								}
-								break;
-							}
-						}
 					}
 				}
-				if(i != 0 && j != gameBoard.height){
-					//Check top left.
+				Printer.printToDebugFile("About to try top left.");
+				if (i != 0 && j + 1 != gameBoard.height) {
+					// Check top left.
 					int rowPlayerValue = 10;
 					int inARow = 0;
 					int xValue = i;
-					for(int y = j+1; y < gameBoard.height && xValue > 0; y++){
-						xValue--;
-						if(y==j+1){
+					for (int y = j + 1; y < gameBoard.height && xValue - 1 > 0; y++) {
+						if (y == j + 1) {
 							rowPlayerValue = gameBoard.board[y][xValue];
-						}else{
-							if(gameBoard.board[y][xValue] == rowPlayerValue){
+						} else {
+							if (gameBoard.board[y][xValue] == rowPlayerValue) {
 								inARow++;
-							}else{
-								if(playerNum == rowPlayerValue){
-									myValue = myValue + TestPlayer.weights.get(inARow);
-								}else{
-									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+							} else {
+								if (playerNum == rowPlayerValue) {
+									if (inARow > 0) {
+										myValue = myValue + TestPlayer.weights.get(inARow);
+									}
+								} else {
+									if (inARow > 0) {
+										opponentValue = opponentValue + TestPlayer.weights.get(inARow);
+									}
 								}
 								break;
 							}
 						}
+						xValue--;
 					}
 				}
-				
-				if(j != 0 && i != 0){
-					//Check bottom left.
+				Printer.printToDebugFile("About to try bottom left.");
+				if (j != 0 && i != 0) {
+					// Check bottom left.
 					int rowPlayerValue = 10;
 					int inARow = 0;
 					int xValue = i;
-					for(int y = j-1; y > 0 && xValue > 0; y--){
-						xValue--;
-						if(y==j-1){
+					for (int y = j - 1; y > 0 && xValue - 1 > 0; y--) {
+						if (y == j - 1) {
 							rowPlayerValue = gameBoard.board[y][xValue];
-						}else{
-							if(gameBoard.board[y][xValue] == rowPlayerValue){
+						} else {
+							if (gameBoard.board[y][xValue] == rowPlayerValue) {
 								inARow++;
-							}else{
-								if(playerNum == rowPlayerValue){
-									myValue = myValue + TestPlayer.weights.get(inARow);
-								}else{
-									opponentValue = opponentValue + TestPlayer.weights.get(inARow);;
+							} else {
+								if (playerNum == rowPlayerValue) {
+									if (inARow > 0) {
+										myValue = myValue + TestPlayer.weights.get(inARow);
+									}
+								} else {
+									if (inARow > 0) {
+										opponentValue = opponentValue + TestPlayer.weights.get(inARow);
+									}
 								}
 								break;
 							}
 						}
 					}
-				}				
+					xValue--;
+				}
 			}
 		}
+		Printer.printToDebugFile("Returning utility value of: " + (myValue - opponentValue));
 		return myValue - opponentValue;
 	}
 
-	
-	public int performMiniMaxSearch(int depth, int alpha, int beta, boolean calledFromRoot){
-		if(depth == 1){
+	public int performMiniMaxSearch(int depth, int alpha, int beta, boolean calledFromRoot) {
+		if (depth == 1) {
+			Printer.printToDebugFile("Getting utility of board");
 			return getUtilityOfRootBoard();
-		}
-		
-		if(thisIsMax){
-			for(MiniMaxTree child: children){
-				int thisChildsNum = child.performMiniMaxSearch(depth - 1,alpha, beta, false);
-				if(thisChildsNum > alpha){
-					alpha = thisChildsNum;
-					if(calledFromRoot)moveForThisTree = child.moveForThisTree;
+		} else {
+			Printer.printToDebugFile("MiniMax1");
+			if (thisIsMax) {
+				Printer.printToDebugFile("MiniMax2");
+				if (children != null) {
+					for (MiniMaxTree child : children) {
+						Printer.printToDebugFile("MiniMax3");
+						int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false);
+						Printer.printToDebugFile("MiniMax7");
+						if (thisChildsNum > alpha) {
+							alpha = thisChildsNum;
+							if (calledFromRoot) {
+								Printer.printToDebugFile("MiniMax4");
+								moveForThisTree = child.moveForThisTree;
+							}
+						}
+						if (alpha >= beta)
+							break;
+					}
 				}
-				if(alpha >= beta)break;
-			}
-			return alpha;
-		}else{
-			
-			for(MiniMaxTree child: children){
-				int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false);
-				if(thisChildsNum < beta){
-					beta = thisChildsNum;
-					if(calledFromRoot)moveForThisTree = child.moveForThisTree;
+				Printer.printToDebugFile("MiniMax8");
+				return alpha;
+			} else {
+				Printer.printToDebugFile("MiniMax5");
+				if (children != null) {
+					for (MiniMaxTree child : children) {
+						Printer.printToDebugFile("MiniMax6");
+						int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false);
+						if (thisChildsNum < beta) {
+							beta = thisChildsNum;
+							if (calledFromRoot)
+								moveForThisTree = child.moveForThisTree;
+						}
+						if (alpha >= beta)
+							break;
+					}
 				}
-				if(alpha >= beta)break;
+				return beta;
 			}
-			return beta;
 		}
 	}
 
@@ -247,9 +314,10 @@ public class MiniMaxTree {
 		for (int j = 0; j < gameBoard.width; j++) {
 			// Build all possible boards for drop.
 
-			Board temp = Board.getBoardCopy(gameBoard);
-			if(temp.canDropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum==1) ? 2: 1))){
-				temp.dropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum==1) ? 2: 1));
+			CustomBoard temp = CustomBoard.getBoardCopy(gameBoard);
+			// Printer.printToDebugFile("Building drop boards: " + j);
+			if (temp.canDropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum == 1) ? 2 : 1))) {
+				temp.dropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum == 1) ? 2 : 1));
 				MiniMaxTree tempTree = new MiniMaxTree(temp, !thisIsMax, playerNum);
 				tempTree.moveForThisTree = new PlayerMove(j, TypeOfMove.Drop);
 				children.add(tempTree);
@@ -259,8 +327,9 @@ public class MiniMaxTree {
 		for (int j = 0; j < gameBoard.width; j++) {
 			// Build all possible boards for pop.
 
-			Board temp = new Board(gameBoard.height, gameBoard.width, gameBoard.getN());
-			if (temp.canRemoveADiscFromBottom(j,  thisIsMax ? playerNum : ((playerNum==1) ? 2: 1))) {
+			CustomBoard temp = CustomBoard.getBoardCopy(gameBoard);
+			// Printer.printToDebugFile("Building drop boards: " + j);
+			if (temp.canRemoveADiscFromBottom(j, thisIsMax ? playerNum : ((playerNum == 1) ? 2 : 1))) {
 				temp.removeADiscFromBottom(j);
 				MiniMaxTree tempTree = new MiniMaxTree(temp, !thisIsMax, playerNum);
 				tempTree.moveForThisTree = new PlayerMove(j, TypeOfMove.PopOut);
@@ -268,7 +337,7 @@ public class MiniMaxTree {
 			}
 		}
 
-		for (MiniMaxTree child: children) {
+		for (MiniMaxTree child : children) {
 			child.buildTreeToDepth(i - 1);
 		}
 	}
