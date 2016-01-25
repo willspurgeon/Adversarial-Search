@@ -27,11 +27,14 @@ public class MiniMaxTree {
 	 * 
 	 * @return The value of the MiniMaxTree
 	 */
+	
+
+	
 	public int getUtilityOfRootBoard() {
 		// TODO: Implement heuristic here.
 		// i width
 		// j height
-
+		testStuff();
 		int myValue = 0;
 		int opponentValue = 0;
 
@@ -355,6 +358,21 @@ public class MiniMaxTree {
 				return beta;
 			}
 		}
+	}
+	public void  testStuff()
+	{
+		
+		gameBoard.dropADiscFromTop(0, 1);
+		gameBoard.dropADiscFromTop(1, 2);
+		gameBoard.dropADiscFromTop(1, 1);
+		gameBoard.dropADiscFromTop(2, 2);
+		gameBoard.dropADiscFromTop(2, 2);
+		gameBoard.dropADiscFromTop(2, 1);
+		gameBoard.dropADiscFromTop(4, 2);
+		gameBoard.dropADiscFromTop(4, 2);
+		gameBoard.dropADiscFromTop(5, 1);
+		gameBoard.dropADiscFromTop(5, 1);
+	
 	}
 
 	public void buildTreeToDepth(int i) {
