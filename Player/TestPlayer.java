@@ -16,7 +16,7 @@ import AIPlayer.PlayerMove;
 
 public class TestPlayer {
 
-	String playerName="Bogey";
+	String playerName="PlayerA";
 	BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 	boolean first_move=false;
 	int firstPlayer = 0;
@@ -56,10 +56,10 @@ public class TestPlayer {
 			//Perform MiniMax and pruning using heuristic. 
 			//Return a move within the time limit.
 			PlayerMove bestFoundMove;
-			int treeDepth = 2;
+			int treeDepth = 5;
 			gameTree.gameBoard = gameBoard;
 			gameTree.buildTreeToDepth(treeDepth);
-
+			
 			for(int i = 1; System.currentTimeMillis() < (startingTime + (timeLimit*1000)); i++){
 				if (i <= treeDepth) {
 					Printer.printToDebugFile("MiniMax for i value: " + i);
@@ -71,6 +71,11 @@ public class TestPlayer {
 			}
 			Printer.printToDebugFile("About to send move: " + gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
 			System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
+			if(gameTree.moveForThisTree.moveType == PlayerMove.TypeOfMove.Drop){
+				gameBoard.canDropADiscFromTop(gameTree.moveForThisTree.column, playerNum);
+			}else{
+				gameBoard.removeADiscFromBottom(gameTree.moveForThisTree.column);
+			}
 
 			Printer.printToDebugFile("Sent Move");
 		}else if(ls.size()==1){
@@ -95,6 +100,7 @@ public class TestPlayer {
 			if(first_move){
 				//make the first move
 				System.out.println("4 1");
+				gameTree.gameBoard.dropADiscFromTop(4, playerNum);
 			}
 			
 			weights = new ArrayList<Integer>();

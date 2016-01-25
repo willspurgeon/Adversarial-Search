@@ -25,7 +25,15 @@ public class CustomBoard {
 	int TIE=0;
 	
 	public static CustomBoard getBoardCopy(CustomBoard in){
-		return in;
+		CustomBoard temp = new CustomBoard(in.height, in.width, in.N);
+		temp.board = in.board;
+		temp.numOfDiscsInColumn = in.numOfDiscsInColumn;
+		temp.emptyCell = in.emptyCell;
+		temp.PLAYER1 = in.PLAYER1;
+		temp.PLAYER2 = in.PLAYER2;
+		temp.NOCONNECTION = in.NOCONNECTION;
+		temp.TIE = in.TIE;
+		return temp;
 	}
 	
 	 public CustomBoard(int height, int width, int N){

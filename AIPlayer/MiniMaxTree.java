@@ -316,12 +316,18 @@ public class MiniMaxTree {
 					for (MiniMaxTree child : children) {
 						Printer.printToDebugFile("MiniMax3");
 						int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false);
+						
+						if(calledFromRoot){
+							Printer.printToDebugFile("CHILD VALUE: " + thisChildsNum);
+							Printer.printToDebugFile("CHILD Len: " + children.size());
+							Printer.printToDebugFile("CHILD Mov: " + child.moveForThisTree.column + " Type: " + child.moveForThisTree.moveType);
+						}
+						
 						if (thisChildsNum > alpha) {
 							alpha = thisChildsNum;
-							moveForThisTree = child.moveForThisTree;
 							if (calledFromRoot) {
+								moveForThisTree = child.moveForThisTree;
 								Printer.printToDebugFile("MiniMax4");
-								//moveForThisTree = child.moveForThisTree;
 							}
 						}
 						if (alpha >= beta)
@@ -338,9 +344,8 @@ public class MiniMaxTree {
 						int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false);
 						if (thisChildsNum < beta) {
 							beta = thisChildsNum;
-							moveForThisTree = child.moveForThisTree;
 							if (calledFromRoot){
-								//moveForThisTree = child.moveForThisTree;
+								moveForThisTree = child.moveForThisTree;
 							}
 						}
 						if (alpha >= beta)
