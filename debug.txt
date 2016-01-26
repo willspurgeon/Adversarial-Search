@@ -1,731 +1,4463 @@
 
 
 
-
-
-
-We are player 1
 We are player 2
-First player 1
-First player 1
+First player 2
 We go first? true
-We go first? false
 Creating new board. Height, Width: 6 7
-Creating new board. Height, Width: 6 7
-About to drop 4
-OpponentNum 1
-ColNum: 4
-Can drop? Col: 4 true
-First: 5Col: 4
-Done dropping a disc.
-Building new tree. On depth level 2
-Build drop disc.
-First: 5Col: 0
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 1
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 2
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 3
-Done dropping a disc.
-Build drop disc.
-First: 4Col: 4
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 5
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 6
-Done dropping a disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-MiniMax for i value: 1
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-Done MiniMax for i value: 1
-MiniMax for i value: 2
-MiniMax1
-MiniMax2
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax4
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax8
-Done MiniMax for i value: 2
-About to send move: 0 1
-Sent Move
-About to drop 0
-OpponentNum 2
-ColNum: 0
-Can drop? Col: 0 true
-First: 5Col: 0
-Done dropping a disc.
-Building new tree. On depth level 2
-Build drop disc.
-First: 4Col: 0
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 1
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 2
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 3
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 4
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 5
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 6
-Done dropping a disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-MiniMax for i value: 1
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-Done MiniMax for i value: 1
-MiniMax for i value: 2
-MiniMax1
-MiniMax2
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax4
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -60
-MiniMax7
-MiniMax8
-Done MiniMax for i value: 2
-About to send move: 0 1
-Sent Move
 About to drop 0
 OpponentNum 1
 ColNum: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 1
 Can drop? Col: 0 true
-First: 5Col: 0
-Done dropping a disc.
-Building new tree. On depth level 2
-Build drop disc.
-First: 4Col: 0
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 1
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 2
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 3
-Done dropping a disc.
-Build drop disc.
-First: 3Col: 4
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 5
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 6
-Done dropping a disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 1
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 2
+Can I drop a disc in col: 1
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 2 2 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 2 2 2 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 2 2 2 2 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 2 2 2 2 2 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 2
+Can I drop a disc in col: 1
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 2
+Can I drop a disc in col: 1
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 3
+Can I drop a disc in col: 1
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 4
+Can I drop a disc in col: 1
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
 MiniMax for i value: 1
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
 Done MiniMax for i value: 1
 MiniMax for i value: 2
-MiniMax1
-MiniMax2
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax4
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax8
 Done MiniMax for i value: 2
+MiniMax for i value: 3
+Done MiniMax for i value: 3
 About to send move: 0 1
-Sent Move
-About to drop 0
-OpponentNum 2
-ColNum: 0
-Can drop? Col: 0 true
-First: 3Col: 0
-Done dropping a disc.
-Building new tree. On depth level 2
-Build drop disc.
-First: 2Col: 0
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 1
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 2
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 3
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 4
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 5
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 6
-Done dropping a disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-MiniMax for i value: 1
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-Done MiniMax for i value: 1
-MiniMax for i value: 2
-MiniMax1
-MiniMax2
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax4
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -120
-MiniMax7
-MiniMax8
-Done MiniMax for i value: 2
-About to send move: 0 1
+About to drop a disc again.
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
 Sent Move
 About to drop 0
 OpponentNum 1
 ColNum: 0
-Can drop? Col: 0 true
-First: 3Col: 0
-Done dropping a disc.
-Building new tree. On depth level 2
-Build drop disc.
-First: 2Col: 0
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 1
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 2
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 3
-Done dropping a disc.
-Build drop disc.
-First: 2Col: 4
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 5
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 6
-Done dropping a disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+Can drop? Col: 0 false
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 2 2 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 2 2 2 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 2 2 2 2 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 2 2 2 2 2 2 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
 MiniMax for i value: 1
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
 Done MiniMax for i value: 1
 MiniMax for i value: 2
-MiniMax1
-MiniMax2
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax4
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax8
 Done MiniMax for i value: 2
-About to send move: 0 1
-Sent Move
-About to drop 0
-OpponentNum 2
-ColNum: 0
-Can drop? Col: 0 true
-First: 1Col: 0
-Done dropping a disc.
-Building new tree. On depth level 2
-Build drop disc.
-First: 0Col: 0
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 1
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 2
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 3
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 4
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 5
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 6
-Done dropping a disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-MiniMax for i value: 1
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-Done MiniMax for i value: 1
-MiniMax for i value: 2
-MiniMax1
-MiniMax2
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax4
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: -180
-MiniMax7
-MiniMax8
-Done MiniMax for i value: 2
-About to send move: 0 1
+MiniMax for i value: 3
+Done MiniMax for i value: 3
+About to send move: 1 1
+About to drop a disc again.
+Can I drop a disc in col: 1
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+Num of discs in col: 0
 Sent Move
 About to drop 0
 OpponentNum 1
 ColNum: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
 Can drop? Col: 0 true
-First: 1Col: 0
-Done dropping a disc.
-Building new tree. On depth level 2
-Build drop disc.
-First: 0Col: 0
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 1
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 2
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 3
-Done dropping a disc.
-Build drop disc.
-First: 1Col: 4
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 5
-Done dropping a disc.
-Build drop disc.
-First: 5Col: 6
-Done dropping a disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
-Build remove disc.
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 1
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+ 1 2 2 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+ 1 2 2 2 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+ 1 2 2 2 2 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+ 1 2 2 2 2 2 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 1
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 2
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 3
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 4
+Can I drop a disc in col: 2
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 1 1 1 1 9
+Num of discs in col: 0
 MiniMax for i value: 1
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
 Done MiniMax for i value: 1
 MiniMax for i value: 2
-MiniMax1
-MiniMax2
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax4
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax3
-Getting utility of board
-Starting utility function
-Returning utility value of: 0
-MiniMax8
 Done MiniMax for i value: 2
+MiniMax for i value: 3
+Done MiniMax for i value: 3
+About to send move: 1 1
+About to drop a disc again.
+Can I drop a disc in col: 1
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Sent Move
+About to drop 1
+OpponentNum 1
+ColNum: 1
+Can I drop a disc in col: 1
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Can drop? Col: 1 false
+Can I drop a disc in col: 1
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Can I drop a disc in col: 0
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 2
+About to print line
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 2 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 2 2 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 2 2 2 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 2 2 2 2 2 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 2 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 2 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 1 1 1 1 9
+Num of discs in col: 0
+MiniMax for i value: 1
+Done MiniMax for i value: 1
+MiniMax for i value: 2
+Done MiniMax for i value: 2
+MiniMax for i value: 3
+Done MiniMax for i value: 3
 About to send move: 0 1
+About to drop a disc again.
+Can I drop a disc in col: 0
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 6
+Sent Move
+About to drop 1
+OpponentNum 1
+ColNum: 1
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 5
+Can drop? Col: 1 true
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Can I drop a disc in col: 0
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 1
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 2 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 2 2 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 2 2 2 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 2 1 2 2 2 2 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 6
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+Can I drop a disc in col: 0
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 1
+About to print line
+ 1 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 5
+Can I drop a disc in col: 2
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 3
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 9 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 4
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 9 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 5
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 9 9
+Num of discs in col: 0
+Can I drop a disc in col: 6
+About to print line
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 1 1 1 1 9
+Num of discs in col: 0
+MiniMax for i value: 1
+Done MiniMax for i value: 1
+MiniMax for i value: 2
+Done MiniMax for i value: 2
+MiniMax for i value: 3
+Done MiniMax for i value: 3
+About to send move: 2 1
+About to drop a disc again.
+Can I drop a disc in col: 2
+About to print line
+ 9 9 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+ 1 1 9 9 9 9 9
+Num of discs in col: 0
 Sent Move

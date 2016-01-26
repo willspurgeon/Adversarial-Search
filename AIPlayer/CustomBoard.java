@@ -45,8 +45,8 @@ public class CustomBoard {
 				board[i][j]=this.emptyCell;
 			}
 		numOfDiscsInColumn=new int[this.width];
-//		for(int j=0;j<width;j++)
-//			numOfDiscsInColumn[j]=0;
+		for(int j=0;j<width;j++)
+			numOfDiscsInColumn[j]=0;
 		this.N=N;
 	 }
 	 
@@ -88,8 +88,23 @@ public class CustomBoard {
 		 this.numOfDiscsInColumn[col]--;
 	 }
 	 
+	 public void printBoardToDebug(){
+		 Printer.printToDebugFile("About to print line");
+		 for(int i = 0; i < this.height; i++){
+			 String line = "";
+			 for(int j = 0; j < this.width; j++){
+				line = line + " " + Integer.toString(board[i][j]);
+			 }
+			 Printer.printToDebugFile(line);
+		 }
+	 }
+	 
 	 
 	 public boolean canDropADiscFromTop(int col, int currentPlayer){
+		 Printer.printToDebugFile("Can I drop a disc in col: " + col);
+		 this.printBoardToDebug();
+		 Printer.printToDebugFile("Num of discs in col: " + this.numOfDiscsInColumn[col]);
+		 
 		 if(col<0 || col>=this.width) {
 			 //System.out.println("Illegal column!");
 			 return false;
@@ -104,10 +119,10 @@ public class CustomBoard {
 	 
 	 public void dropADiscFromTop(int col, int currentplayer){
 		 int firstEmptyCellRow=height-this.numOfDiscsInColumn[col]-1;
-		 Printer.printToDebugFile("First: " + firstEmptyCellRow + "Col: " + col);
+		 //Printer.printToDebugFile("First: " + firstEmptyCellRow + "Col: " + col);
 		 board[firstEmptyCellRow][col]=currentplayer;
 		 this.numOfDiscsInColumn[col]++;
-		 Printer.printToDebugFile("Done dropping a disc.");
+		 //Printer.printToDebugFile("Done dropping a disc.");
 	 }
 	 
 	 /**

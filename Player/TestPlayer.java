@@ -28,7 +28,7 @@ public class TestPlayer {
 	
 	public static ArrayList<Integer> weights;
 	
-	CustomBoard gameBoard;
+	//CustomBoard gameBoard;
 	
 	public void processInput() throws IOException{	
 		
@@ -40,24 +40,25 @@ public class TestPlayer {
 			long startingTime = System.currentTimeMillis();
 			if(Integer.parseInt(ls.get(1)) == 0){
 				//POP out
-				gameBoard.removeADiscFromBottom(Integer.parseInt(ls.get(0)));
+				gameTree.gameBoard.removeADiscFromBottom(Integer.parseInt(ls.get(0)));
 			}else{
 				//Drop
 				Printer.printToDebugFile("About to drop " + Integer.parseInt(ls.get(0)));
 				Printer.printToDebugFile("OpponentNum " + opponentNum);
 				int colNum = Integer.parseInt(ls.get(0));
 				Printer.printToDebugFile("ColNum: " + colNum);
-				Printer.printToDebugFile("Can drop? Col: " + colNum + " " + gameBoard.canDropADiscFromTop(colNum, opponentNum));
-				if(gameBoard.canDropADiscFromTop(colNum, opponentNum)){
-					gameBoard.dropADiscFromTop(colNum, opponentNum);
+				Printer.printToDebugFile("Can drop? Col: " + colNum + " " + gameTree.gameBoard.canDropADiscFromTop(colNum, opponentNum));
+				if(gameTree.gameBoard.canDropADiscFromTop(colNum, opponentNum)){
+					gameTree.gameBoard.dropADiscFromTop(colNum, opponentNum);
 				}
 			}
 
+			gameTree.gameBoard.printBoardToDebug();
 			//Perform MiniMax and pruning using heuristic. 
 			//Return a move within the time limit.
 			PlayerMove bestFoundMove;
-			int treeDepth = 5;
-			gameTree.gameBoard = gameBoard;
+			int treeDepth = 3;
+			//gameTree.gameBoard = gameBoard;
 			gameTree.buildTreeToDepth(treeDepth);
 			
 			for(int i = 1; System.currentTimeMillis() < (startingTime + (timeLimit*1000)); i++){
@@ -72,9 +73,12 @@ public class TestPlayer {
 			Printer.printToDebugFile("About to send move: " + gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
 			System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
 			if(gameTree.moveForThisTree.moveType == PlayerMove.TypeOfMove.Drop){
-				gameBoard.canDropADiscFromTop(gameTree.moveForThisTree.column, playerNum);
+				Printer.printToDebugFile("About to drop a disc again.");
+				if(gameTree.gameBoard.canDropADiscFromTop(gameTree.moveForThisTree.column, playerNum))
+				gameTree.gameBoard.dropADiscFromTop(gameTree.moveForThisTree.column, playerNum);
 			}else{
-				gameBoard.removeADiscFromBottom(gameTree.moveForThisTree.column);
+				Printer.printToDebugFile("About to remove a disc.");
+				gameTree.gameBoard.removeADiscFromBottom(gameTree.moveForThisTree.column);
 			}
 
 			Printer.printToDebugFile("Sent Move");
@@ -95,12 +99,12 @@ public class TestPlayer {
 			Printer.printToDebugFile("We go first? " + first_move);
 			
 			Printer.printToDebugFile("Creating new board. Height, Width: " + boardHeight + " " + boardWidth);
-			gameBoard = new CustomBoard(boardHeight, boardWidth, nNum);
+			CustomBoard gameBoard = new CustomBoard(boardHeight, boardWidth, nNum);
 			gameTree = new MiniMaxTree(gameBoard, true, playerNum);
 			if(first_move){
 				//make the first move
-				System.out.println("4 1");
-				gameTree.gameBoard.dropADiscFromTop(4, playerNum);
+				System.out.println("0 1");
+				gameTree.gameBoard.dropADiscFromTop(0, playerNum);
 			}
 			
 			weights = new ArrayList<Integer>();
