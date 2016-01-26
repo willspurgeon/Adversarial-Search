@@ -31,7 +31,6 @@ public class MiniMaxTree {
 
 	
 	public int getUtilityOfRootBoard() {
-		// TODO: Implement heuristic here.
 		// i width
 		// j height
 		//testStuff();
@@ -297,7 +296,6 @@ public class MiniMaxTree {
 						}
 						xValue--;	// was in the wrong place
 					}
-					
 				}
 			}
 		}

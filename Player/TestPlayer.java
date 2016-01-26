@@ -16,7 +16,7 @@ import AIPlayer.PlayerMove;
 
 public class TestPlayer {
 
-	String playerName="PlayerA";
+	String playerName="Bogey";
 	BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 	boolean first_move=false;
 	int firstPlayer = 0;
@@ -49,6 +49,7 @@ public class TestPlayer {
 				Printer.printToDebugFile("ColNum: " + colNum);
 				Printer.printToDebugFile("Can drop? Col: " + colNum + " " + gameTree.gameBoard.canDropADiscFromTop(colNum, opponentNum));
 				if(gameTree.gameBoard.canDropADiscFromTop(colNum, opponentNum)){
+					Printer.printToDebugFile("DROPPING!");
 					gameTree.gameBoard.dropADiscFromTop(colNum, opponentNum);
 				}
 			}
@@ -57,7 +58,7 @@ public class TestPlayer {
 			//Perform MiniMax and pruning using heuristic. 
 			//Return a move within the time limit.
 			PlayerMove bestFoundMove;
-			int treeDepth = 3;
+			int treeDepth = 4;
 			//gameTree.gameBoard = gameBoard;
 			gameTree.buildTreeToDepth(treeDepth);
 			

@@ -15,14 +15,14 @@ public class CustomBoard {
 	
 	public int width;
 	public int height;
-	int board[][];
-	int numOfDiscsInColumn[];
-	int emptyCell=9;
-	int N;
-	int PLAYER1=1;
-	int PLAYER2=2;
-	int NOCONNECTION=-1;
-	int TIE=0;
+	public int board[][];
+	public int numOfDiscsInColumn[];
+	public int emptyCell=9;
+	public int N;
+	public int PLAYER1=1;
+	public int PLAYER2=2;
+	public int NOCONNECTION=-1;
+	public int TIE=0;
 	
 	public static CustomBoard getBoardCopy(CustomBoard in){
 		CustomBoard temp = new CustomBoard(in.height, in.width, in.N);
