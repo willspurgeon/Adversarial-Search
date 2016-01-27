@@ -1,5 +1,6 @@
 package Player;
 
+//Authors: Will Spurgeon and Daniel Pongratz
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,7 +17,7 @@ import AIPlayer.PlayerMove;
 
 public class TestPlayer {
 
-	String playerName="Bogey";
+	String playerName="Will";
 	BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 	boolean first_move=false;
 	int firstPlayer = 0;
@@ -27,8 +28,6 @@ public class TestPlayer {
 	MiniMaxTree gameTree;
 	
 	public static ArrayList<Integer> weights;
-	
-	//CustomBoard gameBoard;
 	
 	public void processInput() throws IOException{	
 		
@@ -57,22 +56,20 @@ public class TestPlayer {
 			gameTree.gameBoard.printBoardToDebug();
 			//Perform MiniMax and pruning using heuristic. 
 			//Return a move within the time limit.
-			PlayerMove bestFoundMove;
 			int treeDepth = 4;
-			//gameTree.gameBoard = gameBoard;
 			gameTree.buildTreeToDepth(treeDepth);
 			
 			for(int i = 1; System.currentTimeMillis() < (startingTime + (timeLimit*1000)); i++){
 				if (i <= treeDepth) {
 					Printer.printToDebugFile("MiniMax for i value: " + i);
-					gameTree.performMiniMaxSearch(i, Integer.MIN_VALUE, Integer.MAX_VALUE, true);
+					gameTree.performMiniMaxSearch(i, Integer.MIN_VALUE, Integer.MAX_VALUE, true); //Perform the MiniMax search to a specific depth.
 					Printer.printToDebugFile("Done MiniMax for i value: " + i);
 				}else{
 					break;
 				}
 			}
 			Printer.printToDebugFile("About to send move: " + gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
-			System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal());
+			System.out.println(gameTree.moveForThisTree.column + " " + gameTree.moveForThisTree.moveType.ordinal()); //Print out our move.
 			if(gameTree.moveForThisTree.moveType == PlayerMove.TypeOfMove.Drop){
 				Printer.printToDebugFile("About to drop a disc again.");
 				if(gameTree.gameBoard.canDropADiscFromTop(gameTree.moveForThisTree.column, playerNum))
@@ -100,7 +97,7 @@ public class TestPlayer {
 			Printer.printToDebugFile("We go first? " + first_move);
 			
 			Printer.printToDebugFile("Creating new board. Height, Width: " + boardHeight + " " + boardWidth);
-			CustomBoard gameBoard = new CustomBoard(boardHeight, boardWidth, nNum);
+			CustomBoard gameBoard = new CustomBoard(boardHeight, boardWidth, nNum); //Initialize the game board.
 			gameTree = new MiniMaxTree(gameBoard, true, playerNum);
 			if(first_move){
 				//make the first move
@@ -110,10 +107,10 @@ public class TestPlayer {
 			
 			weights = new ArrayList<Integer>();
 			for(int i = 1; i <= 10*nNum; i++){
-				weights.add(i*i);
+				weights.add(i*i); //Rows of length n are worth twice the value of rows with length n-1.
 			}
 			
-		}else if(ls.size()==4){		//player1: aa player2: bb
+		}else if(ls.size()==4){	
 			//Receive the names of the players.
 			if(ls.get(1).equals(playerName)){
 				playerNum = 1;

@@ -1,5 +1,7 @@
 package Player;
 
+//Will Spurgeon and Daniel Pongratz
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -16,12 +18,11 @@ public class Printer {
     		
     		File file =new File("debug.txt");
     		
-    		//if file doesnt exists, then create it
+    		//if file doesn't exists, then create it
     		if(!file.exists()){
     			file.createNewFile();
     		}
     		
-    		//true = append file
     		FileWriter fileWritter = new FileWriter(file.getName(),true);
     	        BufferedWriter bufferWritter = new BufferedWriter(fileWritter);
     	        bufferWritter.write(input + "\n");

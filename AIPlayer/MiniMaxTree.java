@@ -1,5 +1,7 @@
 package AIPlayer;
 
+//Will Spurgeon and Daniel Pongratz
+
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
@@ -114,17 +116,12 @@ public class MiniMaxTree {
 							if (gameBoard.board[j][y] == 9) {
 								break;
 							}
-							// //Printer.printToDebugFile("left1");
 							rowPlayerValue = gameBoard.board[j][y];
 						} else {
-							// //Printer.printToDebugFile("left2");
 							if (gameBoard.board[j][y] == rowPlayerValue) {
-								// //Printer.printToDebugFile("left3");
 								inARow++;
 							} else {
-								// //Printer.printToDebugFile("left4");
 								if (playerNum == rowPlayerValue) {
-									// //Printer.printToDebugFile("left5");
 									if (inARow > 0) {
 										myValue = myValue + TestPlayer.weights.get(inARow - 1);
 									}
@@ -138,7 +135,6 @@ public class MiniMaxTree {
 						}
 					}
 				}
-				////Printer.printToDebugFile("About to try bottom.");
 				if (j != 0) {
 					// Check bottom.
 					int rowPlayerValue = 10;
@@ -179,15 +175,11 @@ public class MiniMaxTree {
 							if (gameBoard.board[y][xValue] == 9) {
 								break;
 							}
-							// //Printer.printToDebugFile("top right1");
 							rowPlayerValue = gameBoard.board[y][xValue];
 						} else {
-							// //Printer.printToDebugFile("top right2");
 							if (gameBoard.board[y][xValue] == rowPlayerValue) {
-								////Printer.printToDebugFile("top right3");
 								inARow++;
 							} else {
-								// //Printer.printToDebugFile("top right4");
 								if (playerNum == rowPlayerValue) {
 									if (inARow > 0) {
 										myValue = myValue + TestPlayer.weights.get(inARow);
@@ -310,54 +302,39 @@ public class MiniMaxTree {
 			////Printer.printToDebugFile("Getting utility of board");
 			return getUtilityOfRootBoard();
 		} else {
-			////Printer.printToDebugFile("MiniMax1");
 			if (thisIsMax) {
-				////Printer.printToDebugFile("MiniMax2");
 				if (children != null) {
 					for (MiniMaxTree child : children) {
-						////Printer.printToDebugFile("MiniMax3");
-						int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false);
-						
-						if(calledFromRoot){
-							////Printer.printToDebugFile("CHILD VALUE: " + thisChildsNum);
-							////Printer.printToDebugFile("CHILD Len: " + children.size());
-							////Printer.printToDebugFile("CHILD Mov: " + child.moveForThisTree.column + " Type: " + child.moveForThisTree.moveType);
-						}
-						
+						int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false); //Search each child in tree.
 						if (thisChildsNum > alpha) {
 							alpha = thisChildsNum;
 							if (calledFromRoot) {
-								moveForThisTree = child.moveForThisTree;
-								////Printer.printToDebugFile("MiniMax4");
+								moveForThisTree = child.moveForThisTree; //We should make this move.
 							}
 						}
 						if (alpha >= beta)
-							break;
+							break; //Alpha-beta pruning.
 					}
 				}
-				////Printer.printToDebugFile("MiniMax8");
 				return alpha;
 			} else {
-				//Printer.printToDebugFile("MiniMax5");
 				if (children != null) {
 					for (MiniMaxTree child : children) {
-						//Printer.printToDebugFile("MiniMax6");
-						int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false);
+						int thisChildsNum = child.performMiniMaxSearch(depth - 1, alpha, beta, false); //Search for each child in tree.
 						if (thisChildsNum < beta) {
 							beta = thisChildsNum;
 							if (calledFromRoot){
-								moveForThisTree = child.moveForThisTree;
+								moveForThisTree = child.moveForThisTree; //We should make this move.
 							}
 						}
 						if (alpha >= beta)
-							break;
+							break; //Alpha-beta pruning.
 					}
 				}
 				return beta;
 			}
 		}
 	}
-	/*
 	public void  testStuff()
 	{
 		
@@ -373,7 +350,7 @@ public class MiniMaxTree {
 		gameBoard.dropADiscFromTop(5, 1);
 	
 	}
-*/
+
 	public void buildTreeToDepth(int i) {
 		if (i <= 1) {
 			return;
@@ -386,9 +363,7 @@ public class MiniMaxTree {
 			// Build all possible boards for drop.
 
 			CustomBoard temp = CustomBoard.getBoardCopy(gameBoard);
-			// //Printer.printToDebugFile("Building drop boards: " + j);
 			if (temp.canDropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum == 1) ? 2 : 1))) {
-				//Printer.printToDebugFile("Build drop disc.");
 				temp.dropADiscFromTop(j, thisIsMax ? playerNum : ((playerNum == 1) ? 2 : 1));
 				MiniMaxTree tempTree = new MiniMaxTree(temp, !thisIsMax, playerNum);
 				tempTree.moveForThisTree = new PlayerMove(j, TypeOfMove.Drop);
@@ -400,9 +375,7 @@ public class MiniMaxTree {
 			// Build all possible boards for pop.
 
 			CustomBoard temp = CustomBoard.getBoardCopy(gameBoard);
-			// //Printer.printToDebugFile("Building drop boards: " + j);
 			if (temp.canRemoveADiscFromBottom(j, thisIsMax ? playerNum : ((playerNum == 1) ? 2 : 1))) {
-				//Printer.printToDebugFile("Build remove disc.");
 				temp.removeADiscFromBottom(j);
 				MiniMaxTree tempTree = new MiniMaxTree(temp, !thisIsMax, playerNum);
 				tempTree.moveForThisTree = new PlayerMove(j, TypeOfMove.PopOut);
@@ -412,7 +385,7 @@ public class MiniMaxTree {
 
 		if(children != null){
 			for (MiniMaxTree child : children) {
-				child.buildTreeToDepth(i - 1);
+				child.buildTreeToDepth(i - 1); //Build the next layer.
 			}
 		}
 	}

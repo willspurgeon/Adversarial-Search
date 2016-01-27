@@ -1,5 +1,7 @@
 package AIPlayer;
 
+//Will Spurgeon and Daniel Pongratz
+
 import Player.Printer;
 
 /**
